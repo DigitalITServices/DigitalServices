@@ -55,7 +55,7 @@
         </div>
       </div>
       <!-- Contact Form -->
-      <form 
+      <!--<form 
         class="mx-auto mt-16 max-w-xl sm:mt-20" 
         name="contact" 
         method="POST" 
@@ -147,15 +147,15 @@
             <button type="submit" class="rounded-md bg-red-700 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Send message</button>
           </div>
         </div>
-      </form>
-      <!--<form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" method="POST">
+      </form> -->
+      <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" method="POST">
 
         <input type="hidden" value="contact" name="form-name" />
         <input name="first-name" placeholder="First Name">
         <input name="last-name" placeholder="Last Name">
         <input type="submit" value="Submit">
 
-      </form>-->
+      </form>
     </div>
   </div>
    
