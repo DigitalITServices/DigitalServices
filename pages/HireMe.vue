@@ -151,13 +151,13 @@
       <form 
                 class="mx-auto mt-16 max-w-xl sm:mt-20" 
                 name="contact" 
-                method="POST" 
                 data-netlify="true"
-                data-netlify-honeypot="bot-field">
+                data-netlify-honeypot="bot-field"
+                method="POST" >
                     <input type="hidden" name="form-name" value="contact" />
-                    <p hidden>
+                  <!--  <p hidden>
 		                <label>Don’t fill this out: <input name="bot-field" /></label>
-	                </p>
+	                </p> -->
 
                     <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                         <div>
