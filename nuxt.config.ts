@@ -4,10 +4,10 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
   ],
-  nitro: {
+  /*nitro: {
     prerender: {
     routes: [ '/HireMe', '/simple-netlify-form' ]
     }
-    },
+    },*/
 
 })
