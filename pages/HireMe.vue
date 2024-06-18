@@ -61,7 +61,7 @@
         method="POST" 
         data-netlify="true"
         data-netlify-honeypot="bot-field">
-        
+        <input type="hidden" name="serviceEnquiry" value="serviceEnquiry" />
         <p hidden>
 		      <label>Don’t fill this out: <input name="bot-field" /></label>
 	      </p>
