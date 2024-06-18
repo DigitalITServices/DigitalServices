@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   ],
   nitro: {
     prerender: {
-    routes: [ '/', '/simple-netlify-form' ]
+    routes: [ '/HireMe', '/simple-netlify-form' ]
     }
     },
 
