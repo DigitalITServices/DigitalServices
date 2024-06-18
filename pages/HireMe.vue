@@ -148,85 +148,14 @@
           </div>
         </div>
       </form>-->
-      <form 
-                class="mx-auto mt-16 max-w-xl sm:mt-20" 
-                name="contact" 
-                data-netlify="true"
-                data-netlify-honeypot="bot-field"
-                method="POST" >
-                    <input type="hidden" name="form-name" value="contact" />
-                  <!--  <p hidden>
-		                <label>Don’t fill this out: <input name="bot-field" /></label>
-	                </p> -->
+      <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" method="POST">
 
-                    <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
-                        <div>
-                            <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">
-                                First name
-                            </label>
-                            <div class="mt-2.5">
-                                <input 
-                                    class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-400 sm:text-sm sm:leading-6" 
-                                    id="first-name"
-                                    name="first-name" 
-                                    type="text" 
-                                    autocomplete="text"
-                                    required 
-                                />
-                            </div>
-                        </div>
-        
-                        <div>
-                            <label for="last-name" class="block text-sm font-semibold leading-6 text-gray-900">
-                                Last name
-                            </label>
-                            <div class="mt-2.5">
-                                <input class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-400 sm:text-sm sm:leading-6"
-                                    id="last-name"
-                                    name="last-name" 
-                                    type="text" 
-                                    autocomplete="text"
-                                    required  
-                                />
-                            </div>
-                        </div>
-        
-                        <div class="sm:col-span-2">
-                            <label for="emailaddress" class="block text-sm font-semibold leading-6 text-gray-900">
-                                Email
-                            </label>
-                            <div class="mt-2.5">
-                                <input class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-400 sm:text-sm sm:leading-6" 
-                                    id="emailaddress" 
-                                    name="emailaddress"
-                                    type="email"
-                                    autocomplete="email" 
-                                    required 
-                                />
-                            </div>
-                        </div>
-        
-                        <div class="sm:col-span-2">
-                            <label for="message" class="block text-sm font-semibold leading-6 text-grey-900">
-                                Message
-                            </label>
-                            <div class="mt-2.5">
-                                <textarea class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-400 sm:text-sm sm:leading-6"
-                                    name="message" 
-                                    id="message" 
-                                    rows="4"
-                                    required 
-                                 />
-                            </div>
-                        </div>
-      
-                        <div class="mt-10">
-                            <button type="submit" class="block w-full rounded-md bg-blue-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500">
-                                Let's talk
-                            </button>
-                        </div>
-                    </div>
-                </form>
+        <input type="hidden" value="contact" name="form-name" />
+        <input name="first-name" placeholder="First Name">
+        <input name="last-name" placeholder="Last Name">
+        <input type="submit" value="Submit">
+
+      </form>
     </div>
   </div>
    
