@@ -55,16 +55,8 @@
         </div>
       </div>
       <!-- Contact Form -->
-      <form 
-        class="mx-auto mt-16 max-w-xl sm:mt-20" 
-        name="serviceEnquiry" 
-        method="POST" 
-        data-netlify="true"
-        data-netlify-honeypot="bot-field">
-        <input type="hidden" name="serviceEnquiry" value="serviceEnquiry" />
-        <p hidden>
-		      <label>Don’t fill this out: <input name="bot-field" /></label>
-	      </p>
+      <form name="contact" method="post" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
         <div class="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
           <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
             <div>
