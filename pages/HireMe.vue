@@ -55,12 +55,13 @@
         </div>
       </div>
       <!-- Contact Form -->
-      <form 
+     <!-- <form 
         class="mx-auto mt-16 max-w-xl sm:mt-20" 
         name="contact" 
         method="POST" 
         data-netlify="true"
-        data-netlify-honeypot="bot-field">
+        data-netlify-honeypot="bot-field"> -->
+      <form action="/simple-netlify-form" method="POST" data-netlify="true" name="contact" class="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48">
         <input type="hidden" name="form-name" value="contact" />
         <p hidden>
 		      <label>Don’t fill this out: <input name="bot-field" /></label>
