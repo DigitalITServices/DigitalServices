@@ -9,28 +9,23 @@
           <span class="block xl:inline xl:text-5xl">All your Digital needs <br> in one place</span>
         </h1>
         
-        <div class="grid grid-cols-2 grid-rows-2 gap-2 place-items-auto h-30 mt-10 sm:ml-3">
+       <!--<div class="grid grid-cols-2 grid-rows-2 gap-2 place-items-auto h-30 mt-10 sm:ml-3">-->
+          <p class="p-9 text-xl text-gray-500">
+            Here at RaspiKidd we simplify your digital needs by creating bespoke social media templates, and 
+            websites. 
+          </p>
+
+          <p class="p-9 text-xl text-gray-500">
+            We even remove the pain of creating bespoke business signage for trade fairs by helping you 
+            transfer your logos into lovely laser-engraved signs. These could even be made into Keyrings 
+            and coasters for your customers.
+          </p>
           <div class="rounded-md shadow sm:mt-0 sm:ml-3">
-            <router-link to="/WebDesign" style ="background-color:#76B82A;" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
-              Web Design
-            </router-link>
+            <NuxtLink to="/Design" style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 18px" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
+              Find out more
+            </NuxtLink>
           </div>
-         <div class="rounded-md shadow sm:mt-0 sm:ml-3">
-            <router-link to="/Editing" style ="background-color:#76B82A;" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
-              Editing
-            </router-link>
-          </div>
-          <div class="rounded-md shadow sm:mt-0 sm:ml-3">
-            <router-link to="/ComputerRepair" style ="background-color:#76B82A;" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
-              Computer Repair
-            </router-link>
-          </div>
-          <div class="rounded-md shadow sm:mt-0 sm:ml-3">
-            <router-link to="/SoftwareInstall" style ="background-color:#76B82A;" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
-              Software Install
-            </router-link>
-          </div>
-        </div>
+        <!--</div>-->
       </div>
     </div>
     <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
