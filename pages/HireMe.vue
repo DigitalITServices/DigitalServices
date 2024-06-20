@@ -55,7 +55,7 @@
         </div>
       </div>
       <!-- Contact Form -->
-      <ContactForm />
+      <contact-form />
      <!--<form 
         class="mx-auto mt-16 max-w-xl sm:mt-20" 
         name="contact" 
@@ -280,5 +280,6 @@
 </template>
 <script setup>
   // Component Imports
-  import ContactForm from '~/components/ContactForm.vue';
+  // import { ContactForm } from "#build/components";
+  import Contactform from "~/components/ContactForm.vue";
 </script>

@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     prerender: {
       routes: [
         '/HireMe',
-        '/ContactForm',
+        '/contact-form',
       ]
     }
   }

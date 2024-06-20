@@ -1,7 +1,7 @@
 <template>
     <form 
         class="mx-auto mt-16 max-w-xl sm:mt-20"
-        action="/ContactForm" 
+        action="/contact-form" 
         method="POST" 
         name="contact" 
         data-netlify="true"> 
