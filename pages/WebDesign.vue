@@ -24,7 +24,7 @@
         </p>
 
         <div class="rounded-md shadow sm:mt-0 sm:ml-3">
-          <a href="https://calendly.com/raspikidd/30-min-consultation" style ="background-color:#76B82A;" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
+          <a href="https://calendly.com/raspikidd/30-min-discovery-call" style ="background-color:#76B82A;" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4" target="_blank">
             Book Here
           </a>
         </div>
