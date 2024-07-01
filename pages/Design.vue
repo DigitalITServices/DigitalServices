@@ -18,7 +18,7 @@
             </p>
             <p class="mt-6 text-xl leading-8">
                 Pauline from Later Life Concierge approached us asking if we could turn their logo into a 
-                Laser cutable design as a bespoke piece of adversiment when they do events.   
+                Laser cutable design as a bespoke piece of advertisement when they do events.   
             </p>
             <p class="mt-6 text-xl leading-8">
                 <strong> We of course said no problem </strong>
