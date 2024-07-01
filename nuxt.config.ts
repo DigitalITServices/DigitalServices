@@ -62,7 +62,8 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      script: [{src: "https://cdn-cookieyes.com/client_data/d6f0c1a00dd0dc1726c250ea/script.js"}],
+      script: [{src: "https://www.iubenda.com/privacy-policy/97489543/cookie-policy" //"https://cdn-cookieyes.com/client_data/d6f0c1a00dd0dc1726c250ea/script.js"
+        }],
     },
   },
 })
