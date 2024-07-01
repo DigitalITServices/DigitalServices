@@ -86,6 +86,12 @@
           </div>
           <p class="mt-8 text-base text-center text-gray-400">
             &copy; 2024 RaspiKidd. All rights reserved.
+            <a 
+          class ="text-blue-500" 
+          href= "/privacy_policy.pdf"
+          target="_blank"> 
+            Privacy Policy 
+          </a>
           </p>
         </div>
     </footer>

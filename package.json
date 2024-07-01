@@ -10,9 +10,12 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@weareheavy/nuxt-cookie-consent": "^1.0.4",
     "nuxt": "^3.12.2",
     "posthog-js": "^1.140.1",
     "vue": "^3.4.29",
+    "vue-cookieconsent-component": "^1.2.0",
+    "vue-if-bot": "^1.2.0",
     "vue-router": "^4.3.3"
   },
   "devDependencies": {
