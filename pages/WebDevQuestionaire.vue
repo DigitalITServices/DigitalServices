@@ -8,7 +8,7 @@
           <div class="flex justify-start lg:w-0 lg:flex-1">
             <NuxtLink to="/">
               <span class="sr-only">Workflow</span>
-              <img class="h-8 w-auto sm:h-20" src="/images/RaspiKidd.svg" alt="Logo">
+              <img class="h-8 w-auto sm:h-20" src="/public/images/DreamDigitalLogo.svg" alt="Logo">
             </NuxtLink>
           </div>  
         </div>

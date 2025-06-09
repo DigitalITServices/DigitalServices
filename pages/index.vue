@@ -1,5 +1,5 @@
 
-import CookieBanner from '~/components/CookieBanner.vue';
+<!--import CookieBanner from '~/components/CookieBanner.vue'; -->
 <template>
     <div class="relative bg-gray-50">
         <Header />

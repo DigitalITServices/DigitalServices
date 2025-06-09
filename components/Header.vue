@@ -4,8 +4,8 @@
           <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
             <div class="flex justify-start lg:w-0 lg:flex-1">
               <NuxtLink to="/">
-                <span class="sr-only">RaspiKidd - Dream Digital</span>
-                <img class="h-8 w-auto sm:h-20" src="/public/images/DreamDigitalLogo.svg" alt="Logo">
+                <span class="sr-only">DreamDigital By RaspiKidd</span>
+                <img class="h-8 w-auto sm:h-20" src="/public/images/DreamDigitalLogo.svg" alt="Dream Digital By RaspiKidd Logo">
               </NuxtLink>
             </div>
             
