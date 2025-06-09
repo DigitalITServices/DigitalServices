@@ -32,7 +32,8 @@ import CookieBanner from '~/components/CookieBanner.vue';
       </div>
     </div>
     <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-        <img class="absolute inset-0 w-full h-full object-cover" src="/images/home.jpg" alt="home page image">
+        <img class="absolute inset-0 w-full h-full object-cover" src="/images/home.jpg" alt="Kerry creating AI workflows." />
+        <p class="absolute bottom-0 right-0 text-xs text-gray-600 p-2 bg-white bg-opacity-75">Photo credit: The Strathearn Snapper</p>
       </div>
   </main>
 </div>

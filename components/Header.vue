@@ -4,8 +4,8 @@
           <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
             <div class="flex justify-start lg:w-0 lg:flex-1">
               <NuxtLink to="/">
-                <span class="sr-only">RasiKidd - Dream Digital</span>
-                <img class="h-8 w-auto sm:h-20" src="/images/RaspiKidd.svg" alt="Logo">
+                <span class="sr-only">RaspiKidd - Dream Digital</span>
+                <img class="h-8 w-auto sm:h-20" src="/public/images/DreamDigitalLogo.svg" alt="Logo">
               </NuxtLink>
             </div>
             
@@ -144,7 +144,7 @@
                 <div class="pt-5 pb-6 px-5">
                   <div class="flex items-center justify-between">
                     <NuxtLink to="/">
-                      <img class="h-8 w-auto sm:h-10" src="/images/RaspiKidd.svg" alt="Logo">
+                      <img class="h-8 w-auto sm:h-10" src="/public/images/DreamDigitalLogo.svg" alt="Logo">
                     </NuxtLink>
                     <div class="flex items-center">
                       <div class="flex-shrink-0">
