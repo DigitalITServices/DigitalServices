@@ -11,22 +11,24 @@
           <span class="block text-sky-900 xl:inline">Dream </span> 
           <span class="block text-green-900 xl:inline">Digital </span> <br>
           <span class="block text-sky-600 xl:inline xl:text-5xl">Making tech easy </span> <br>
-          <span class="block text-purple-400 xl:inline xl:text-5xl">for everyday founders</span>
+          <span class="block text-violet-500 xl:inline xl:text-5xl">for everyday founders</span>
         </h1>
         
        <!--<div class="grid grid-cols-2 grid-rows-2 gap-2 place-items-auto h-30 mt-10 sm:ml-3">-->
-          <p class="p-9 text-xl text-gray-500">
+          <p class="p-9 text-xl text-gray-600">
             Here at RaspiKidd we simplify your digital needs by creating bespoke social media templates, and 
             websites. 
           </p>
 
-          <p class="p-9 text-xl text-gray-500">
+          <p class="p-9 text-xl text-gray-600">
             We even remove the pain of creating bespoke business signage for trade fairs by helping you 
             transfer your logos into lovely laser-engraved signs. These could even be made into Keyrings 
             and coasters for your customers.
           </p>
+
           <div class="rounded-md shadow sm:mt-0 sm:ml-3">
-            <NuxtLink to="/Design" style ="background-color:#76B82A; color:#0E7452; font-weight: bold; font-size: 18px" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md text-black md:py-4 md:text-lg md:px-4">
+  
+            <NuxtLink to="/Design" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md rounded-md bg-violet-600 hover:bg-violet-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-500 text-white md:py-4 md:text-lg md:px-4">
               Find out more
             </NuxtLink>
           </div>
