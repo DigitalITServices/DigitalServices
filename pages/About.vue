@@ -84,7 +84,7 @@
         </div>
         
         <!-- Values section -->
-        <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-10 lg:px-8 sm:rounded-3xl bg-zinc-50">
+        <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-10 lg:px-8 sm:rounded-3xl bg-violet-100">
           <div class="mx-auto max-w-2xl lg:mx-0">
             <h2 class="text-pretty text-4xl font-semibold tracking-tight text-sky-600 sm:text-5xl">
               Our values
