@@ -1,7 +1,7 @@
 <template>
   <Header />
   
-  <div class="relative isolate bg-white">
+  <div class="relative isolate bg-zinc-100">
     <div class="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
       <div class="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
         <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
@@ -19,7 +19,7 @@
               <rect width="100%" height="100%" stroke-width="0" fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" />
             </svg>
           </div>
-          <h1 class="text-3xl tracking-tight font-extrabold text-red-700 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
+          <h1 class="text-3xl tracking-tight font-extrabold text-sky-600 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
             Let's Work Together
           </h1>
           <p class="mt-6 text-lg leading-8 text-gray-600">To solve your business digital needs </p>
@@ -27,7 +27,7 @@
             <div class="flex gap-x-4">
               <dt class="flex-none">
                 <span class="sr-only">Phone Number</span>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#76B82A" class="size-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7c3aed" class="size-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
                 </svg>
               </dt>
@@ -36,7 +36,7 @@
             <div class="flex gap-x-4">
               <dt class="flex-none">
                 <span class="sr-only">Email</span>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#76B82A" class="size-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7c3aed" class="size-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
                 </svg>
               </dt>
@@ -45,7 +45,7 @@
             <div class="flex gap-x-4">
               <dt class="flex-none">
                 <span class="sr-only">Opening</span>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#76B82A" class="size-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7c3aed" class="size-6">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                 </svg>
               </dt>
@@ -60,9 +60,9 @@
   </div>
    
   <!-- Testimonials -->
-  <section class="bg-gray-100">
+  <section class="bg-zinc-100">
     <div class="max-w-7xl mx-auto md:grid md:grid-cols-1 md:px-6 lg:px-8">
-      <br> <h2 class="text-4xl font-extrabold tracking-tight sm:text-4xl text-red-700">
+      <br> <h2 class="text-4xl font-extrabold tracking-tight sm:text-4xl text-violet-500">
         Testimonials
       </h2>
     </div>
@@ -70,8 +70,8 @@
     <div class="max-w-7xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
       <div class="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-grey-400 lg:pr-16">
         <blockquote class="mt-6 md:flex-grow md:flex md:flex-col">
-          <div class="relative text-lg font-medium text-black md:flex-grow">
-            <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-red-300" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
+          <div class="relative text-lg font-medium text-gray-700 md:flex-grow">
+            <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-sky-200" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
               <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
             </svg>
     
@@ -81,35 +81,35 @@
 
             <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
               <img class="flex-shrink-0 h-6 w-6" src="/images/bullets.svg" alt="bullet point">
-              <span class="ml-8 text-lg text-black">
+              <span class="ml-8 text-lg text-gray-700">
                 expert advice on IT purchases: PCs, laptops, and components (additional RAM, external hard drives)
               </span>
             </div>
 
             <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
               <img class="flex-shrink-0 h-6 w-6" src="/images/bullets.svg" alt="bullet point">
-              <span class="ml-8 text-lg text-black">
+              <span class="ml-8 text-lg text-gray-700">
                 upgrading / building hardware
               </span>
             </div>
 
             <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
               <img class="flex-shrink-0 h-6 w-6" src="/images/bullets.svg" alt="bullet point">
-              <span class="ml-8 text-lg text-black">
+              <span class="ml-8 text-lg text-gray-700">
                 troubleshooting computer and wifi malfunction
               </span>
             </div>
 
             <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
               <img class="flex-shrink-0 h-6 w-6" src="/images/bullets.svg" alt="bullet point">
-              <span class="ml-8 text-lg text-black">
+              <span class="ml-8 text-lg text-gray-700">
                 complete Windows reinstall and software optimisation
               </span>
             </div>
 
             <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
               <img class="flex-shrink-0 h-6 w-6" src="/images/bullets.svg" alt="bullet point">
-              <span class="ml-8 text-lg text-black">
+              <span class="ml-8 text-lg text-gray-700">
                 Wordpress setup and optimisation
               </span>
             </div>
@@ -126,7 +126,7 @@
               </div> -->
                 
               <div class="ml-4">
-                <div class="text-base font-medium text-black">
+                <div class="text-base font-medium text-grey-900">
                   Anonymous
                 </div>
                   
