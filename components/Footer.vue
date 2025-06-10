@@ -1,11 +1,11 @@
 <template>
     <!--footer -->
-   <footer class="bg-white">
+   <footer class="bg-gray-200">
         <div class="px-4 py-12 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
           <div class="flex justify-center mt-8 space-x-6">
             <a 
               href="https://www.facebook.com/RaspiKidd" 
-              class="text-gray-400 hover:text-gray-500"
+              class="text-gray-500 hover:text-gray-700"
             >
           <span class="sr-only">Facebook</span>
           <svg 
@@ -22,7 +22,7 @@
   
         <a 
           href="https://www.instagram.com/raspikidd/" 
-          class="text-gray-400 hover:text-gray-500"
+          class="text-gray-500 hover:text-gray-700"
         >
           <span class="sr-only">Instagram</span>
           <svg 
@@ -38,7 +38,7 @@
         </a>
             <a
               href="https://twitter.com/RaspiKidd"
-              class="text-gray-400 hover:text-gray-500"
+              class="text-gray-500 hover:text-gray-700"
             >
               <span class="sr-only">Twitter</span>
               <svg
@@ -55,7 +55,7 @@
   
             <a
               href="https://github.com/RaspiKidd"
-              class="text-gray-400 hover:text-gray-500"
+              class="text-gray-500 hover:text-gray-700"
             >
               <span class="sr-only">GitHub</span>
               <svg
@@ -74,7 +74,7 @@
   
             <a
                href="mailto:services@raspikidd.com"
-              class="text-gray-400 hover:text-gray-500"
+              class="text-gray-500 hover:text-gray-700"
             >
               <span class="sr-only">Email</span>
               <svg class="w-6 h-6" fill="currentColor">
@@ -84,7 +84,7 @@
               </svg>
             </a>
           </div>
-          <p class="mt-8 text-base text-center text-gray-400">
+          <p class="mt-8 text-base text-center text-gray-700">
             &copy; 2024 RaspiKidd. All rights reserved.
             <a href="https://www.iubenda.com/privacy-policy/97489543" 
             class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe "
