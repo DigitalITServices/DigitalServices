@@ -88,7 +88,7 @@
                 <strong class="font-semibold text-sky-600">
                    Notion Dashboards & Systems:
                 </strong> 
-                Custom Notion workspaces to run your whole business from one calm, organized place.
+                Custom Notion workspaces to run your whole business from one calm, organised place.
               </span>
             </li>
             <li class="flex gap-x-3">
