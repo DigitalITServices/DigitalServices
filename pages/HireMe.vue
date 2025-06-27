@@ -80,35 +80,45 @@
             </p>
 
             <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
-              <img class="flex-shrink-0 h-6 w-6" src="/images/bullets.svg" alt="bullet point">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#0284c7" viewBox="0 0 384 512" class="flex-shrink-0 h-6 w-6">
+                <path d="M0 192l176 0L176 0 160 0C71.6 0 0 71.6 0 160l0 32zm0 32L0 352c0 88.4 71.6 160 160 160l64 0c88.4 0 160-71.6 160-160l0-128-192 0L0 224zm384-32l0-32C384 71.6 312.4 0 224 0L208 0l0 192 176 0z"/>
+              </svg>
               <span class="ml-8 text-lg text-gray-700">
                 expert advice on IT purchases: PCs, laptops, and components (additional RAM, external hard drives)
               </span>
             </div>
 
             <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
-              <img class="flex-shrink-0 h-6 w-6" src="/images/bullets.svg" alt="bullet point">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#0284c7" viewBox="0 0 384 512" class="flex-shrink-0 h-6 w-6">
+                <path d="M0 192l176 0L176 0 160 0C71.6 0 0 71.6 0 160l0 32zm0 32L0 352c0 88.4 71.6 160 160 160l64 0c88.4 0 160-71.6 160-160l0-128-192 0L0 224zm384-32l0-32C384 71.6 312.4 0 224 0L208 0l0 192 176 0z"/>
+              </svg>
               <span class="ml-8 text-lg text-gray-700">
                 upgrading / building hardware
               </span>
             </div>
 
             <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
-              <img class="flex-shrink-0 h-6 w-6" src="/images/bullets.svg" alt="bullet point">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#0284c7" viewBox="0 0 384 512" class="flex-shrink-0 h-6 w-6">
+                <path d="M0 192l176 0L176 0 160 0C71.6 0 0 71.6 0 160l0 32zm0 32L0 352c0 88.4 71.6 160 160 160l64 0c88.4 0 160-71.6 160-160l0-128-192 0L0 224zm384-32l0-32C384 71.6 312.4 0 224 0L208 0l0 192 176 0z"/>
+              </svg>
               <span class="ml-8 text-lg text-gray-700">
                 troubleshooting computer and wifi malfunction
               </span>
             </div>
 
             <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
-              <img class="flex-shrink-0 h-6 w-6" src="/images/bullets.svg" alt="bullet point">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#0284c7" viewBox="0 0 384 512" class="flex-shrink-0 h-6 w-6">
+                <path d="M0 192l176 0L176 0 160 0C71.6 0 0 71.6 0 160l0 32zm0 32L0 352c0 88.4 71.6 160 160 160l64 0c88.4 0 160-71.6 160-160l0-128-192 0L0 224zm384-32l0-32C384 71.6 312.4 0 224 0L208 0l0 192 176 0z"/>
+              </svg>
               <span class="ml-8 text-lg text-gray-700">
                 complete Windows reinstall and software optimisation
               </span>
             </div>
 
             <div class="-m-3 p-3 ml-4 mt-3 flex items-start rounded-lg">
-              <img class="flex-shrink-0 h-6 w-6" src="/images/bullets.svg" alt="bullet point">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#0284c7" viewBox="0 0 384 512" class="flex-shrink-0 h-6 w-6">
+                <path d="M0 192l176 0L176 0 160 0C71.6 0 0 71.6 0 160l0 32zm0 32L0 352c0 88.4 71.6 160 160 160l64 0c88.4 0 160-71.6 160-160l0-128-192 0L0 224zm384-32l0-32C384 71.6 312.4 0 224 0L208 0l0 192 176 0z"/>
+              </svg>
               <span class="ml-8 text-lg text-gray-700">
                 Wordpress setup and optimisation
               </span>
