@@ -17,8 +17,8 @@
   
             <!-- Desktop Menu -->
             <nav class="hidden md:flex space-x-10">
-              <div class="relative">
-                <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
+              <!--<div class="relative">
+  
                 <button type="button" @click="isOpen =!isOpen" class="group bg-gray-200 rounded-md text-gray-700 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-300">
                   <span> Services </span>
                   <svg class="ml-2 h-5 w-5 text-gray-700 group-hover:text-gray-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -36,7 +36,7 @@
                 >
                   <div v-show="isOpen" class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg">
                     <div class="rounded-md bg-gray-200 shadow-xs">
-                      <!-- Snipped  -->
+                      <!-- Snipped
                       <div class="absolute -ml-4 mt-3 transform z-10 px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
                         <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                           <div class="relative grid gap-6 bg-gray-200 px-5 py-6 sm:gap-8 sm:p-8">
@@ -116,8 +116,11 @@
                     </div>
                   </div>
                 </transition>
-              </div>
-          
+              </div>-->
+              <NuxtLink to="/Services" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-300">
+                Services
+              </NuxtLink>
+      
               <NuxtLink to="/About" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-300">
                 About
               </NuxtLink>
