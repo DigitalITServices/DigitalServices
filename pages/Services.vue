@@ -31,9 +31,10 @@
                   {{ feature }}
                 </li>
               </ul>
-              <button type="submit" name="tier" :value="tier.id" :aria-describedby="`tier-${tier.id}`" @click="goToTierPage(tier.id)" class="mt-6 block w-full rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white ring-1 ring-violet-200 ring-inset bg-violet-600">
+              
+              <NuxtLink :to="`/${tier.id}`" :aria-describedby="`tier-${tier.id}`" class="mt-6 block w-full rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white ring-1 ring-violet-200 ring-inset bg-violet-600">
                 Buy plan
-              </button>
+              </NuxtLink>
             </div>
           </div>
         </div>
@@ -127,4 +128,9 @@ const pricing = {
   },
   // More questions...
 ]*/
+/*methods: {
+  goToTierPage(tier.id); {
+    this.$router.push({ name: 'TierPage', params: { id: tierId } });
+  }
+}*/
 </script>
