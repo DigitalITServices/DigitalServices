@@ -6,18 +6,18 @@
       <form class="tiers bg-zinc-100 pt-24 sm:pt-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto max-w-4xl text-center">
-            <h1 class="text-2xl font-bold text-sky-600">Services</h1>
+            <h1 class="text-2xl font-bold text-sky-700">Services</h1>
             <p class="mt-2 text-5xl font-semibold tracking-tight text-balance text-violet-500 sm:text-6xl">
               What We Offer
             </p>
           </div>
-          <p class="mx-auto mt-6 max-w-2xl text-center text-4xl font-semibold text-pretty text-sky-600 sm:text-xl/8">
+          <p class="mx-auto mt-6 max-w-2xl text-center text-4xl font-semibold text-pretty text-sky-700 sm:text-xl/8">
             Simple, Friendly Digital Support, Built For Small Business Owners
           </p>
           <div class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-4">
             <div v-for="tier in pricing.tiers" :key="tier.id" class="group/tier rounded-3xl p-8 ring-1 bg-violet-100 ring-gray-300 data-featured:ring-2 data-featured:ring-indigo-600">
               <div class="flex items-center justify-between gap-x-4">
-                <h3 :id="`tier-${tier.id}`" class="text-center text-xl/8 font-bold text-sky-600">{{ tier.name }}</h3>
+                <h3 :id="`tier-${tier.id}`" class="text-center text-xl/8 font-bold text-sky-700">{{ tier.name }}</h3>
               </div>
               <p class="mt-4 text-sm/6 text-gray-600">{{ tier.description }}</p>
               <p class="text-center mt-6 flex items-baseline gap-x-1">

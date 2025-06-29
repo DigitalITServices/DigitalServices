@@ -5,7 +5,7 @@
         <!-- Content section -->
         <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-20 lg:px-8">
           <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-            <h1 class="text-pretty text-3xl font-semibold tracking-tight text-sky-600 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
+            <h1 class="text-pretty text-3xl font-semibold tracking-tight text-sky-700 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
               About Dream Digital by RaspiKidd
             </h1>
             <div class="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
@@ -20,7 +20,7 @@
                   automations, AI tools and Notion dashboards feel friendly, clear, and doable. Whether you’re launching your first 
                   service, streamlining your workflows, or just tired of duct-taping tech together, you’ve come to the right place.
                 </p>
-                <h2 class="mt-5 text-pretty text-4xl font-semibold tracking-tight text-violet-500 sm:text-5xl">
+                <h2 class="mt-5 text-pretty text-4xl font-semibold tracking-tight text-violet-700 sm:text-5xl">
                   What Makes Us Different?
                 </h2>
                 <p class="mt-10 max-w-xl text-xl/8 text-gray-700">
@@ -28,7 +28,7 @@
                   fits all systems. Instead, we meet you where you are, listen to what you need, and build you a system that’s 
                   tailored, tidy, and totally manageable.
                 </p>
-                <h2 class="mt-5 text-pretty text-4xl font-semibold tracking-tight text-sky-600 sm:text-5xl">
+                <h2 class="mt-5 text-pretty text-4xl font-semibold tracking-tight text-sky-700 sm:text-5xl">
                   Why “Dream Digital”?
                 </h2>
                 <p class="mt-10 max-w-xl text-xl/8 text-gray-700">
@@ -38,7 +38,7 @@
                 </p>
 
                 <!-- Team section -->
-                <h2 class="mt-5 text-pretty text-4xl font-semibold tracking-tight text-violet-500 sm:text-5xl">
+                <h2 class="mt-5 text-pretty text-4xl font-semibold tracking-tight text-violet-700 sm:text-5xl">
                   Meet Kerry
                 </h2>
                 <ul role="list" class="mt-10 max-w-xl text-xl/8" >
@@ -86,7 +86,7 @@
         <!-- Values section -->
         <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-10 lg:px-8 sm:rounded-3xl bg-violet-100">
           <div class="mx-auto max-w-2xl lg:mx-0">
-            <h2 class="text-pretty text-4xl font-semibold tracking-tight text-sky-600 sm:text-5xl">
+            <h2 class="text-pretty text-4xl font-semibold tracking-tight text-sky-700 sm:text-5xl">
               Our values
             </h2>
             <p class="mt-6 text-lg/8 text-gray-700">

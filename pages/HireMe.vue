@@ -19,7 +19,7 @@
               <rect width="100%" height="100%" stroke-width="0" fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" />
             </svg>
           </div>
-          <h1 class="text-3xl tracking-tight font-extrabold text-sky-600 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
+          <h1 class="text-3xl tracking-tight font-extrabold text-sky-700 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
             Let's Work Together
           </h1>
           <p class="mt-6 text-lg leading-8 text-gray-600">To solve your business digital needs </p>

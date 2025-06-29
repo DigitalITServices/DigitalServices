@@ -10,8 +10,8 @@
         <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
           <span class="block text-sky-900 xl:inline">Dream </span> 
           <span class="block text-green-900 xl:inline">Digital </span> <br>
-          <span class="block text-sky-600 xl:inline xl:text-5xl">Making tech easy </span> <br>
-          <span class="block text-violet-500 xl:inline xl:text-5xl">for everyday founders</span>
+          <span class="block text-sky-700 xl:inline xl:text-5xl">Making tech easy </span> <br>
+          <span class="block text-violet-700 xl:inline xl:text-5xl">for everyday founders</span>
         </h1>
         
        <!--<div class="grid grid-cols-2 grid-rows-2 gap-2 place-items-auto h-30 mt-10 sm:ml-3">-->
@@ -20,7 +20,7 @@
             listen to what you need, and build you a system that’s tailored, tidy, and totally manageable.
           </p>
 
-          <h2 class="mt-5 text-pretty text-4xl font-semibold tracking-tight text-sky-600 sm:text-5xl">
+          <h2 class="mt-5 text-pretty text-4xl font-semibold tracking-tight text-sky-700 sm:text-5xl">
                   What We Can Help You With
           </h2>
 
@@ -31,7 +31,7 @@
               </svg>
 
               <span>
-                <strong class="font-semibold text-sky-600">
+                <strong class="font-semibold text-sky-700">
                   Email & Domain Setup:
                 </strong> 
                 Get a professional email address and domain that makes your business look legit from day one.
@@ -44,7 +44,7 @@
 
 
               <span>
-                <strong class="font-semibold text-sky-600">
+                <strong class="font-semibold text-sky-700">
                   Website Setup & Support:
                 </strong> 
                 Simple, effective websites that show off what you do without the hassle.
@@ -56,7 +56,7 @@
               </svg>
 
               <span>
-                <strong class="font-semibold text-sky-600">
+                <strong class="font-semibold text-sky-700">
                    CRM & Automation Tools:
                 </strong> 
                 Automate your client onboarding, scheduling, and follow-ups so nothing slips through the cracks.
@@ -72,7 +72,7 @@
               </svg>
 
               <span>
-                <strong class="font-semibold text-sky-600">
+                <strong class="font-semibold text-sky-700">
                    AI Integration:
                 </strong> 
                 Add smart tools to your workflow (like chatbots, email drafts, or idea generators) to save time and stress.
@@ -85,7 +85,7 @@
               </svg>
 
               <span>
-                <strong class="font-semibold text-sky-600">
+                <strong class="font-semibold text-sky-700">
                    Notion Dashboards & Systems:
                 </strong> 
                 Custom Notion workspaces to run your whole business from one calm, organised place.
@@ -98,7 +98,7 @@
               </svg>
 
               <span>
-                <strong class="font-semibold text-sky-600">
+                <strong class="font-semibold text-sky-700">
                    Ongoing Tech Support & Training:
                 </strong> 
                 Think of us as your friendly freelance IT department — here when you need a fix, a nudge, or a walkthrough.
