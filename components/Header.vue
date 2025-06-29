@@ -36,7 +36,7 @@
                 >
                   <div v-show="isOpen" class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg">
                     <div class="rounded-md bg-gray-200 shadow-xs">
-                      <!-- Snipped
+                       Snipped
                       <div class="absolute -ml-4 mt-3 transform z-10 px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
                         <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                           <div class="relative grid gap-6 bg-gray-200 px-5 py-6 sm:gap-8 sm:p-8">
