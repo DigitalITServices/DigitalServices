@@ -73,7 +73,7 @@ const pricing = {
     {
       name: 'Digital Kickstart',
       id: 'DigitalKickstart',
-      price: '£0',
+      price: '£497',
       description: 'You will look pro and be found online in just a few days.',
       features: [
         'Domain & Email Setup', 
@@ -83,33 +83,33 @@ const pricing = {
       //featured: false,
     },
     {
+     name: 'Notion HQ',
+      id: 'NotionHq',
+      price: '£997',
+      description: 'The only app you need to run everything.',
+      features: [
+        'Custom Notion Dashboards',
+        'Client Portal',
+        'Business wiki & Task Tracker', 
+      ],
+      //featured: false,
+    },
+    {
       name: 'Smart Systems Setup',
       id: 'SmartSystems',
-      price: '£0',
+      price: '£1,497',
       description: 'Your biz runs itself, so you can focus on what you love.',
       features: [
         'CRM Setup', 
         'Automation Workflows', 
         'AI Productivity tools'
       ],
-      //featured: false,
-    },
-    {
-      name: 'Notion HQ',
-      id: 'NotionHq',
-      price: '£0',
-      description: 'The only app you need to run everything.',
-      features: [
-        'Custom Notion Dashboards',
-        'Client Portal',
-        'Business wiki & Task Tracker',
-      ],
       //featured: true,
     },
     {
       name: 'Tech Piece of Mind Plan',
       id: 'TechSupportPlan',
-      price: '£0 per month',
+      price: '£297 per month',
       description: 'Think of me as your IT bestie.',
       features: [
         'Monthly adhoc support',
