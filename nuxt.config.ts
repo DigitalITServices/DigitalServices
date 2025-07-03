@@ -13,7 +13,6 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/gtm'
   ],
 
   nitro: {
@@ -29,17 +28,4 @@ export default defineNuxtConfig({
       script: [{src:"https://cdn-cookieyes.com/client_data/bbc51d5d201c3f0970882d4f/script.js"}],
     },
   },
-  gtm: {
-    id: process.env.GTM_ID, // Use environment variables for your GTM ID
-    // Additional options (optional)
-    enabled: true,
-    debug: false,
-    layer: 'dataLayer',
-    pageTracking: true,
-    respectDoNotTrack: false,
-    scriptDefer: false
-  },
-  plugins: [
-    { src: '~/plugins/gtm.ts', mode: 'client' }
-  ]
 })
