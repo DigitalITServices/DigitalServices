@@ -25,7 +25,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      script: [{src:"https://cdn-cookieyes.com/client_data/d6f0c1a00dd0dc1726c250ea/script.js"}],
+      script: [{src:"https://cdn-cookieyes.com/client_data/bbc51d5d201c3f0970882d4f/script.js"}],
     },
   },
 })
