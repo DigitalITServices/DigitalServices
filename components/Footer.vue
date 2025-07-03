@@ -86,10 +86,9 @@
           </div>
           <p class="mt-8 text-base text-center text-gray-700">
             &copy; 2025 Dream Digital by RaspiKidd. All rights reserved.
-            <a href="https://www.iubenda.com/privacy-policy/97489543" 
-            class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe "
-            target="_blank" 
-            title="Privacy Policy ">
+            <a href="/Privacy-Policy.pdf" 
+            class="text-gray-900 font-medium hover:text-sky-700"
+            target="_blank">
             Privacy Policy
           </a>
           </p>

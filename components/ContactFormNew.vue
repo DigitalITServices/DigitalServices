@@ -151,7 +151,7 @@
           <!-- Privacy Policy & Mailing List Acceptance-->
           <div>
             <input type="checkbox" id="checkbox" v-model="checked" required />
-            <label for="checkbox"> I accept Dream Digital's <NuxtLink to= "" class="text-gray-900 font-medium"> Privacy Policy. </NuxtLink> {{ }}</label>
+            <label for="checkbox"> I accept Dream Digital's <a href= "/Privacy-Policy.pdf" class="text-gray-900 font-medium hover:text-sky-700" target="_blank"> Privacy Policy. </a> {{ }}</label>
           </div>
           <div data-netlify-recaptcha="true"></div>
           <div class="mt-8 flex justify-end">
