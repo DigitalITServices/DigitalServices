@@ -55,7 +55,7 @@
         </div>
       </div>
       <!-- Contact Form -->
-      <contact-form />
+      <contact-form-new />
     </div>
   </div>
    
