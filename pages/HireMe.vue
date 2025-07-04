@@ -205,7 +205,7 @@
       { name: 'author', content: 'Kerry Kidd' },
       {property: 'og:title', content: 'Hire Me - Dream Digital' },
       { property: 'og:description', content: 'Hire me for your digital needs. I offer services in web development, AI integration, Notion dashboards, and ongoing tech support.' },
-      { property: 'og:image', content: '/images/home.jpg' },
+      //{ property: 'og:image', content: '/images/home.jpg' },
       { property: 'og:url', content: 'https://dreamdigital.com/hire-me' },
       { property: 'og:type', content: 'website' }
     ]

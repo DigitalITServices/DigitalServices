@@ -196,7 +196,7 @@
             { name: 'author', content: 'Kerry Kidd' },
             { property: 'og:title', content: 'Tech Support Plan - Dream Digital' },
             { property: 'og:description', content: 'Eliminate tech anxiety with our Tech Peace of Mind Plan. Monthly support, training, and emergency help for your business.' },
-            { property: 'og:image', content: '/images/tech-support-plan.jpg' },
+            //{ property: 'og:image', content: '/images/tech-support-plan.jpg' },
             { property: 'og:url', content: 'https://dreamdigital.com/TechSupportPlan' },
             { property: 'og:type', content: 'website' }
         ]

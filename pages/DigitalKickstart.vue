@@ -144,7 +144,7 @@
             { property: 'og:title', content: 'Digital Kickstart - Launch Your Business Online' },
             { property: 'og:description', content: 'Launch your business online in days with Digital Kickstart. Get professional email, domain setup, and website builder installation.' },
             { property: 'og:image', content: '/images/digital-kickstart.jpg' },
-            { property: 'og:url', content: 'https://dreamdigital.com/digital-kickstart' },
+            //{ property: 'og:url', content: 'https://dreamdigital.com/digital-kickstart' },
             { property: 'og:type', content: 'website' }
         ]
     });
