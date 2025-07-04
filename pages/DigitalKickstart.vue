@@ -133,3 +133,19 @@
     </div>
     <Footer />
 </template>
+
+<script setup>
+    useHead({
+        title: 'Digital Kickstart - Launch Your Business Online',
+        meta: [
+            { name: 'description', content: 'Digital Kickstart helps you launch your business online quickly with professional email, domain setup, and website builder installation.' },
+            { name: 'keywords', content: 'digital kickstart, business online, email setup, domain setup, website builder' },
+            { name: 'author', content: 'Kerry Kidd' },
+            { property: 'og:title', content: 'Digital Kickstart - Launch Your Business Online' },
+            { property: 'og:description', content: 'Launch your business online in days with Digital Kickstart. Get professional email, domain setup, and website builder installation.' },
+            { property: 'og:image', content: '/images/digital-kickstart.jpg' },
+            { property: 'og:url', content: 'https://dreamdigital.com/digital-kickstart' },
+            { property: 'og:type', content: 'website' }
+        ]
+    });
+</script>

@@ -186,3 +186,19 @@
     </div>
     <Footer />
 </template>
+
+<script setup>
+    useHead({
+        title: 'Tech Support Plan - Dream Digital',
+        meta: [
+            { name: 'description', content: 'Never face tech challenges alone again with our Tech Peace of Mind Plan. Get monthly support, training, and emergency help.' },
+            { name: 'keywords', content: 'tech support, business technology, IT support, digital solutions, technology training, emergency tech help, tech peace of mind' },
+            { name: 'author', content: 'Kerry Kidd' },
+            { property: 'og:title', content: 'Tech Support Plan - Dream Digital' },
+            { property: 'og:description', content: 'Eliminate tech anxiety with our Tech Peace of Mind Plan. Monthly support, training, and emergency help for your business.' },
+            { property: 'og:image', content: '/images/tech-support-plan.jpg' },
+            { property: 'og:url', content: 'https://dreamdigital.com/TechSupportPlan' },
+            { property: 'og:type', content: 'website' }
+        ]
+    });
+</script>

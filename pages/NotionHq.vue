@@ -192,3 +192,19 @@
     </div>
     <Footer />
 </template>
+
+<script setup>
+    useHead({
+        title: 'Notion HQ - Dream Digital',
+        meta: [
+            { name: 'description', content: 'Transform your business operations with Notion HQ. Custom dashboards, client portals, and task tracking in one powerful platform.' },
+            { name: 'keywords', content: 'Notion, business management, client portal, task tracking, dashboards' },
+            { name: 'author', content: 'Kerry Kidd' },
+            { property: 'og:title', content: 'Notion HQ - Dream Digital' },
+            { property: 'og:description', content: 'Transform your business operations with Notion HQ. Custom dashboards, client portals, and task tracking in one powerful platform.' },
+            { property: 'og:image', content: '/images/notion-hq.jpg' },
+            { property: 'og:url', content: 'https://dreamdigital.com/notion-hq' },
+            { property: 'og:type', content: 'website' }
+        ]
+    });
+</script>

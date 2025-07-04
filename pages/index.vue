@@ -125,4 +125,20 @@
    <Footer />
   </template>
 
-  
+  <script setup>
+    useHead({
+      title: 'Home - Dream Digital',
+      meta: [
+        { name: 'description', content: 'Dream Digital - Making tech easy for everyday founders. We provide tailored digital solutions including website setup, CRM tools, AI integration, and ongoing support.' },
+        { name: 'keywords', content: 'digital services, website setup, CRM tools, AI integration, Notion dashboards, tech support, email setup, domain setup' },
+        { name: 'author', content: 'Kerry Kidd' },
+        //{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { property: 'og:title', content: 'Dream Digital - Home' },
+        { property: 'og:description', content: 'Making tech easy for everyday founders with tailored digital solutions.' },
+        { property: 'og:image', content: '/images/home.jpg' },
+        { property: 'og:url', content: 'https://dreamdigital.com' },
+        { property: 'og:type', content: 'website' },
+        //{ property: 'robots', content: 'index, follow' }
+        ]
+    });
+  </script>

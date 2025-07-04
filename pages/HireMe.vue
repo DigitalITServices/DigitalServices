@@ -197,7 +197,17 @@
   <Footer />
 </template>
 <script setup>
-  // Component Imports
-  // import { ContactForm } from "#build/components";
-  import Contactform from "~/components/ContactForm.vue";
+  useHead({
+    title: 'Hire Me - Dream Digital',
+    meta: [
+      { name: 'description', content: 'Hire me for your digital needs. I offer services in web development, AI integration, Notion dashboards, and ongoing tech support.' },
+      { name: 'keywords', content: 'hire me, digital services, web development, AI integration, Notion dashboards, tech support, freelance IT' },
+      { name: 'author', content: 'Kerry Kidd' },
+      {property: 'og:title', content: 'Hire Me - Dream Digital' },
+      { property: 'og:description', content: 'Hire me for your digital needs. I offer services in web development, AI integration, Notion dashboards, and ongoing tech support.' },
+      { property: 'og:image', content: '/images/home.jpg' },
+      { property: 'og:url', content: 'https://dreamdigital.com/hire-me' },
+      { property: 'og:type', content: 'website' }
+    ]
+  });
 </script>

@@ -167,5 +167,19 @@ const values = [
       description:
         'We don’t push fancy tools unless they’re the right fit for you. Your business comes first.',
     },
-  ]
+  ];
+
+  useHead({
+    title: 'About - Dream Digital',
+    meta: [
+      { name: 'description', content: 'Learn about Dream Digital, a tech support studio founded by Kerry Kidd, dedicated to helping small business owners build smart, simple digital systems.' },
+      { name: 'keywords', content: 'about, digital services, tech support, small business, Kerry Kidd' },
+      { name: 'author', content: 'Kerry Kidd' },
+      { property: 'og:title', content: 'About - Dream Digital'},
+      { property: 'og:description', content: 'Discover the mission and vision behind Dream Digital, a tech support studio by Kerry Kidd, dedicated to empowering small business owners with simple, effective digital solutions.' },
+      { property: 'og:url', content: 'https://dreamdigital.co.uk/about' },
+      { property: 'og:image', content: '/images/about.jpg' },
+      { property: 'og:type', content: 'website' },
+    ],
+  })
 </script>

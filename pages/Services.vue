@@ -33,7 +33,7 @@
               </ul>
               
               <NuxtLink :to="`/${tier.id}`" :aria-describedby="`tier-${tier.id}`" class="mt-6 block w-full rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white ring-1 ring-violet-200 ring-inset bg-violet-600">
-                Buy plan
+                Find Out More →
               </NuxtLink>
             </div>
           </div>
@@ -80,6 +80,7 @@ const pricing = {
         'Website builder install/template', 
         'Business email flows'
       ],
+      //button: 'Find Out More →',
       //featured: false,
     },
     {
@@ -133,4 +134,17 @@ const pricing = {
     this.$router.push({ name: 'TierPage', params: { id: tierId } });
   }
 }*/
+useHead({
+  title: 'Services - Dream Digital',
+  meta: [
+    { name: 'description', content: 'Explore our digital services including website setup, Notion dashboards, CRM tools, and ongoing tech support.' },
+    { name: 'keywords', content: 'digital services, website setup, Notion dashboards, CRM tools, tech support' },
+    { name: 'author', content: 'Kerry Kidd' },
+    { property: 'og:title', content: 'Dream Digital - Services' },
+    { property: 'og:description', content: 'Explore our digital services including website setup, Notion dashboards, CRM tools, and ongoing tech support.' },
+    { property: 'og:image', content: '/images/services.jpg' },
+    { property: 'og:url', content: 'https://dreamdigital.com/services' },
+    { property: 'og:type', content: 'website' },
+  ]
+})
 </script>
