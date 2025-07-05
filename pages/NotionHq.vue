@@ -175,7 +175,7 @@
                 <i>
                     Take control of your business operations. Build your command centre with Notion HQ and experience the clarity that comes from having everything in its right place.
                 </i>
-                <a href="#" class="rounded-md bg-violet-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-violet-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600">
+                <a href="https://app.simplymeet.me/dream-digital/dream-digital-30-1751571285886" class="rounded-md bg-violet-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-violet-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600" target="_blank">
                     Book A Call
                 </a>
             </p>
