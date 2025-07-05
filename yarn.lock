@@ -2433,6 +2433,11 @@ copy-anything@^3.0.2:
   dependencies:
     is-what "^4.1.8"
 
+core-js@^3.38.1:
+  version "3.43.0"
+  resolved "https://registry.npmjs.org/core-js/-/core-js-3.43.0.tgz"
+  integrity sha512-N6wEbTTZSYOY2rYAn85CuvWWkCK6QweMn7/4Nr3w+gDBeBhk/x4EJeY6FPo4QzDoJZxVTv8U7CMvgWk6pOHHqA==
+
 core-util-is@~1.0.0:
   version "1.0.3"
   resolved "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz"
@@ -5176,13 +5181,15 @@ postcss@^8.0.0, postcss@^8.0.9, postcss@^8.1.0, postcss@^8.2.14, postcss@^8.4, p
     picocolors "^1.1.1"
     source-map-js "^1.2.1"
 
-posthog-js@^1.140.1:
-  version "1.140.1"
-  resolved "https://registry.npmjs.org/posthog-js/-/posthog-js-1.140.1.tgz"
-  integrity sha512-UeKuAtQSvbzmTCzNVaauku8F194EYwAP33WrRrWZlDlMNbMy7GKcZOgKbr7jZqnha7FlVlHrWk+Rpyr1zCFhPQ==
+posthog-js@^1.256.2:
+  version "1.256.2"
+  resolved "https://registry.npmjs.org/posthog-js/-/posthog-js-1.256.2.tgz"
+  integrity sha512-ypepnUHr33i5a1Uk39mozZXXTENRPC17HCG3WHKK6aRcpNwNs8uEqXaIKICGNM+qre+totKeTgl0WoaUFYmyoQ==
   dependencies:
+    core-js "^3.38.1"
     fflate "^0.4.8"
     preact "^10.19.3"
+    web-vitals "^4.2.4"
 
 preact@^10.19.3:
   version "10.22.0"
@@ -6584,6 +6591,11 @@ vue@^2.5.2:
     "@vue/runtime-dom" "3.5.17"
     "@vue/server-renderer" "3.5.17"
     "@vue/shared" "3.5.17"
+
+web-vitals@^4.2.4:
+  version "4.2.4"
+  resolved "https://registry.npmjs.org/web-vitals/-/web-vitals-4.2.4.tgz"
+  integrity sha512-r4DIlprAGwJ7YM11VZp4R884m0Vmgr6EAKe3P+kO0PPj3Unqyvv59rczf6UiGcb9Z8QxZVcqKNwv/g0WNdWwsw==
 
 webidl-conversions@^3.0.0:
   version "3.0.1"

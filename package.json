@@ -15,7 +15,7 @@
     "@nuxtjs/gtm": "^2.4.0",
     "@weareheavy/nuxt-cookie-consent": "^1.0.4",
     "nuxt": "^3.12.2",
-    "posthog-js": "^1.140.1",
+    "posthog-js": "^1.256.2",
     "vue": "^3.4.29",
     "vue-cookieconsent-component": "^1.2.0",
     "vue-if-bot": "^1.2.0",
