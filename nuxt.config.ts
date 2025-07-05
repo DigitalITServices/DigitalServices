@@ -2,8 +2,9 @@
 export default defineNuxtConfig({
   runtimeConfig: {
     public: {
-      posthogPublicKey: 'phc_5959shz4bJ263tqEKgsKy6UEt3rXLY1qXNcXUewvMic',
-      posthogHost: 'https://eu.i.posthog.com'
+      posthogPublicKey: 'phc_ltaJgnJ6mhUSb8txyagX8KX6xEwNOQHI6x1iU12ePDj',
+      posthogHost: 'https://eu.i.posthog.com',
+      posthogDefults: '2025-05-24'
     }
   },
 
