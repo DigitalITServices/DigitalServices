@@ -4,7 +4,7 @@ export default defineNuxtPlugin((nuxtApp) => {
   
     nuxtApp.vueApp.use(
       createGtm({
-        id: 'G-YD3CG2PXXW', // Your GTM ID
+        id: 'GTM-TDKHCZTB', // Your GTM ID
         enabled: true,
         debug: false,
         loadScript: true,
