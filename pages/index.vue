@@ -121,6 +121,8 @@
       </div>
   </main>
 </div>
+  <!--Newsletter
+  <NewsletterForm /> -->
   <!--footer -->
    <Footer />
   </template>
