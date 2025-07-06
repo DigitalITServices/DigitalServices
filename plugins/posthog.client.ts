@@ -6,7 +6,7 @@ export default defineNuxtPlugin(() => {
     const consent = getConsentCategory()
     if (consent.includes('analytics')) {
       posthog.init('phc_ltaJgnJ6mhUSb8txyagX8KX6xEwNOQHI6x1iU12ePDj', {
-        api_host: 'https://watermelon.dreamdigital.uk',
+        api_host: 'https://eu.i.posthog.com',
         capture_pageview: true,
       })
     }
@@ -31,7 +31,7 @@ window.addEventListener('cookieyes_consent_update', () => {
   const categories = getConsentCategory()
   if (categories.includes('analytics') && !posthog.__loaded) {
     posthog.init('phc_ltaJgnJ6mhUSb8txyagX8KX6xEwNOQHI6x1iU12ePDj', {
-      api_host: 'https://watermelon.dreamdigital.uk',
+      api_host: 'https://eu.i.posthog.com',
       capture_pageview: true,
     })
   }
