@@ -1,4 +1,4 @@
-import { defineNuxtPlugin } from '#app'
+/*import { defineNuxtPlugin } from '#app'
 import posthog from 'posthog-js'
 export default defineNuxtPlugin(() => {
   // Initialise PostHog only if consent is given
@@ -34,5 +34,25 @@ window.addEventListener('cookieyes_consent_update', () => {
       api_host: 'https://eu.i.posthog.com',
       capture_pageview: true,
     })
+  }
+}) */
+
+import { defineNuxtPlugin, useRuntimeConfig } from '#imports'
+
+import posthog from 'posthog-js'
+export default defineNuxtPlugin(() => {
+  const runtimeConfig = useRuntimeConfig()
+  const posthogClient = posthog.init(runtimeConfig.public.posthogPublicKey, {
+    api_host: runtimeConfig.public.posthogHost,
+    defaults: runtimeConfig.public.posthogDefaults,
+    loaded: (posthog) => {
+      if (import.meta.env.MODE === 'development') posthog.debug()
+    },
+  })
+
+  return {
+    provide: {
+      posthog: () => posthogClient,
+    },
   }
 })
