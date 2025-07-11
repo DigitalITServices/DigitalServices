@@ -159,10 +159,14 @@
             </label>
           </div>
           <div>
-            <input type="checkbox" name ="mailing" id="mailing" v-model="mailing" />
+            <label>
+              <input type="checkbox" name="mailing" id="mailing" v-model="mailing" value="yes" />
+              I would like to sign up to Dream Digital's Mailing List 
+            </label>
+            <!--<input type="checkbox" name ="mailing" id="mailing" v-model="mailing" />
             <label for="mailing"> I would like to sign up to Dream Digital's Mailing List 
                 {{ }}
-              </label>
+              </label>-->
           </div>
           <div data-netlify-recaptcha="true"></div>
           <div class="mt-8 flex justify-end">
