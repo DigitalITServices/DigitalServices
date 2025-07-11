@@ -159,8 +159,8 @@
             </label>
           </div>
           <div>
-            <input type="checkbox" name ="mailing" id="checkbox" v-model="mailing" />
-            <label for="checkbox"> I would like to sign up to Dream Digital's Mailing List 
+            <input type="checkbox" name ="mailing" id="mailing" v-model="mailing" />
+            <label for="mailing"> I would like to sign up to Dream Digital's Mailing List 
                 {{ }}
               </label>
           </div>
