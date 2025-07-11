@@ -159,7 +159,7 @@
             </label>
           </div>
           <div>
-            <input type="checkbox" name ="mailing" id="checkbox" v-model="checked" />
+            <input type="checkbox" name ="mailing" id="checkbox" v-model="mailing" />
             <label for="checkbox"> I would like to sign up to Dream Digital's Mailing List 
                 {{ }}
               </label>
@@ -195,4 +195,5 @@ const services = [
 
 const selected = ref(services[3])
 const checked = ref(false)
+const mailing = ref(false)
 </script>
