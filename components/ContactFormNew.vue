@@ -150,8 +150,19 @@
           </div>
           <!-- Privacy Policy & Mailing List Acceptance-->
           <div>
-            <input type="checkbox" id="checkbox" v-model="checked" required />
-            <label for="checkbox"> I accept Dream Digital's <a href= "/Privacy-Policy.pdf" class="text-gray-900 font-medium hover:text-sky-700" target="_blank"> Privacy Policy. </a> {{ }}</label>
+            <input type="checkbox" name="privacy" id="checkbox" v-model="checked" required />
+            <label for="checkbox"> I accept Dream Digital's 
+              <a href= "/Privacy-Policy.pdf" class="text-gray-900 font-medium hover:text-sky-700" target="_blank"> 
+                Privacy Policy. 
+              </a> 
+              {{ }}
+            </label>
+          </div>
+          <div>
+            <input type="checkbox" name ="mailing" id="checkbox" v-model="checked" />
+            <label for="checkbox"> I would like to sign up to Dream Digital's Mailing List 
+                {{ }}
+              </label>
           </div>
           <div data-netlify-recaptcha="true"></div>
           <div class="mt-8 flex justify-end">
