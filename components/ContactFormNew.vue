@@ -89,12 +89,12 @@
                  autocomplete="text"  />
               </div>
             </div>
-           <div class="sm:col-span-2">
-
-              <label for="service" class="block text-sm font-semibold leading-6 text-gray-900"> 
+            <div class="sm:col-span-2">
+           <div class="relative mt-2 px-3.5 py-2 shadow-sm ring-2 ring-inset border-sky-700 border-2 rounded-md">
+              <label for="services" class="block text-sm font-semibold leading-6 text-gray-900"> 
                 Services 
               </label>
-               <select name="services" id="services" multiple>
+               <select name="services" id="services" class="grid w-full cursor-default grid-cols-1 rounded-md bg-white py-1.5 pr-2 pl-3 text-left text-gray-900 outline-1 -outline-offset-1 outline-sky-700 focus:outline-2 focus:-outline-offset-2 focus:outline-violet-700 sm:text-sm/6" required>
                 <option value="DigitalKickstart">
                   Digital Kickstart
                 </option>
@@ -111,6 +111,9 @@
                   Other
                 </option>
               </select>
+           </div>
+              <p class="text-red-700 text-xs italic"> Required </p>
+           </div>
                <!--<div class="mt-2.5">
                 <input 
                  class="block w-full rounded-md border-2 px-3.5 py-2 text-gray-900 shadow-sm ring-2 ring-inset border-sky-700 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
@@ -218,7 +221,7 @@ import { Listbox, ListboxButton, ListboxLabel, ListboxOption, ListboxOptions } f
   { id: 10, name: 'Emil Schaefer' },
 ]*/
 
-const selected = ref(services[3])
+//const selected = ref(services[3])
 const checked = ref(false)
 const mailing = ref(false)
 </script>
