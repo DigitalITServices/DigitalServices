@@ -89,9 +89,32 @@
                  autocomplete="text"  />
               </div>
             </div>
-            <!--<div class="sm:col-span-2">
-              <label for="Service" class="block text-sm font-semibold leading-6 text-gray-900"> Service you are enquiring about </label>
-              <div class="mt-2.5">
+            <div class="sm:col-span-2">
+           <div class="relative mt-2 px-3.5 py-2 shadow-sm ring-2 ring-inset border-sky-700 border-2 rounded-md">
+              <label for="services" class="block text-sm font-semibold leading-6 text-gray-900"> 
+                Services 
+              </label>
+               <select name="services" id="services" class="grid w-full cursor-default grid-cols-1 rounded-md bg-white py-1.5 pr-2 pl-3 text-left text-gray-900 outline-1 -outline-offset-1 outline-sky-700 focus:outline-2 focus:-outline-offset-2 focus:outline-violet-700 sm:text-sm/6" required>
+                <option value="DigitalKickstart">
+                  Digital Kickstart
+                </option>
+                <option value="SmartSystemsSetup">
+                  Smart Systems Setup
+                </option>
+                <option value="NotionHQ">
+                  Notion HQ
+                </option>
+                <option value="TechPeaceofMindPlan">
+                  Tech Peace of Mind Plan
+                </option>
+                <option value="Other">
+                  Other
+                </option>
+              </select>
+           </div>
+              <p class="text-red-700 text-xs italic"> Required </p>
+           </div>
+               <!--<div class="mt-2.5">
                 <input 
                  class="block w-full rounded-md border-2 px-3.5 py-2 text-gray-900 shadow-sm ring-2 ring-inset border-sky-700 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                  id="service"  
@@ -103,7 +126,8 @@
             </div> -->
             
             <!-- Services List -->
-            <Listbox as="div" v-model="selected" class = "sm:col-span-2">
+
+            <!--<Listbox as="div" v-model="selected" class = "sm:col-span-2">
               <ListboxLabel class="block text-sm/6 font-medium text-gray-900">
                 Servce you are enquiring about
               </ListboxLabel>
@@ -134,7 +158,7 @@
                 </transition>
               </div>
               <p class="text-red-700 text-xs italic"> Required </p>
-            </Listbox>
+            </Listbox>-->
             <div class="sm:col-span-2">
               <label for="message" class="block text-sm font-semibold leading-6 text-gray-900">Message</label>
               <div class="mt-2.5">
@@ -150,8 +174,23 @@
           </div>
           <!-- Privacy Policy & Mailing List Acceptance-->
           <div>
-            <input type="checkbox" id="checkbox" v-model="checked" required />
-            <label for="checkbox"> I accept Dream Digital's <a href= "/Privacy-Policy.pdf" class="text-gray-900 font-medium hover:text-sky-700" target="_blank"> Privacy Policy. </a> {{ }}</label>
+            <input type="checkbox" name="privacy" id="checkbox" v-model="checked" required />
+            <label for="checkbox"> I accept Dream Digital's 
+              <a href= "/Privacy-Policy.pdf" class="text-gray-900 font-medium hover:text-sky-700" target="_blank"> 
+                Privacy Policy. 
+              </a> 
+              {{ }}
+            </label>
+          </div>
+          <div>
+            <label>
+              <input type="checkbox" name="mailing" id="mailing" v-model="mailing" value="yes" />
+              I would like to sign up to Dream Digital's Mailing List 
+            </label>
+            <!--<input type="checkbox" name ="mailing" id="mailing" v-model="mailing" />
+            <label for="mailing"> I would like to sign up to Dream Digital's Mailing List 
+                {{ }}
+              </label>-->
           </div>
           <div data-netlify-recaptcha="true"></div>
           <div class="mt-8 flex justify-end">
@@ -169,7 +208,7 @@ import { Listbox, ListboxButton, ListboxLabel, ListboxOption, ListboxOptions } f
 //import { ChevronUpDownIcon } from '@heroicons/vue/16/solid'
 //import { CheckIcon } from '@heroicons/vue/20/solid'
 
-const services = [
+/*const services = [
   { id: 1, name: 'Digital Kickstart' },
   { id: 2, name: 'Smart Systems Setup' },
   { id: 3, name: 'Notion HQ' },
@@ -179,9 +218,10 @@ const services = [
   { id: 7, name: 'Caroline Schultz' },
   { id: 8, name: 'Mason Heaney' },
   { id: 9, name: 'Claudie Smitham' },
-  { id: 10, name: 'Emil Schaefer' },*/
-]
+  { id: 10, name: 'Emil Schaefer' },
+]*/
 
-const selected = ref(services[3])
+//const selected = ref(services[3])
 const checked = ref(false)
+const mailing = ref(false)
 </script>
