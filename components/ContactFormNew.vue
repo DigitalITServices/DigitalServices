@@ -89,9 +89,29 @@
                  autocomplete="text"  />
               </div>
             </div>
-            <!--<div class="sm:col-span-2">
-              <label for="Service" class="block text-sm font-semibold leading-6 text-gray-900"> Service you are enquiring about </label>
-              <div class="mt-2.5">
+           <div class="sm:col-span-2">
+
+              <label for="service" class="block text-sm font-semibold leading-6 text-gray-900"> 
+                Services 
+              </label>
+               <select name="services" id="services" multiple>
+                <option value="DigitalKickstart">
+                  Digital Kickstart
+                </option>
+                <option value="SmartSystemsSetup">
+                  Smart Systems Setup
+                </option>
+                <option value="NotionHQ">
+                  Notion HQ
+                </option>
+                <option value="TechPeaceofMindPlan">
+                  Tech Peace of Mind Plan
+                </option>
+                <option value="Other">
+                  Other
+                </option>
+              </select>
+               <!--<div class="mt-2.5">
                 <input 
                  class="block w-full rounded-md border-2 px-3.5 py-2 text-gray-900 shadow-sm ring-2 ring-inset border-sky-700 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                  id="service"  
@@ -103,7 +123,8 @@
             </div> -->
             
             <!-- Services List -->
-            <Listbox as="div" v-model="selected" class = "sm:col-span-2">
+
+            <!--<Listbox as="div" v-model="selected" class = "sm:col-span-2">
               <ListboxLabel class="block text-sm/6 font-medium text-gray-900">
                 Servce you are enquiring about
               </ListboxLabel>
@@ -134,7 +155,7 @@
                 </transition>
               </div>
               <p class="text-red-700 text-xs italic"> Required </p>
-            </Listbox>
+            </Listbox>-->
             <div class="sm:col-span-2">
               <label for="message" class="block text-sm font-semibold leading-6 text-gray-900">Message</label>
               <div class="mt-2.5">
@@ -184,7 +205,7 @@ import { Listbox, ListboxButton, ListboxLabel, ListboxOption, ListboxOptions } f
 //import { ChevronUpDownIcon } from '@heroicons/vue/16/solid'
 //import { CheckIcon } from '@heroicons/vue/20/solid'
 
-const services = [
+/*const services = [
   { id: 1, name: 'Digital Kickstart' },
   { id: 2, name: 'Smart Systems Setup' },
   { id: 3, name: 'Notion HQ' },
@@ -194,8 +215,8 @@ const services = [
   { id: 7, name: 'Caroline Schultz' },
   { id: 8, name: 'Mason Heaney' },
   { id: 9, name: 'Claudie Smitham' },
-  { id: 10, name: 'Emil Schaefer' },*/
-]
+  { id: 10, name: 'Emil Schaefer' },
+]*/
 
 const selected = ref(services[3])
 const checked = ref(false)
