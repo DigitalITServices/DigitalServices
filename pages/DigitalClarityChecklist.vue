@@ -71,13 +71,13 @@
           </div>
         </div>
 
-        <img src="/images/ChecklistMockup.png" alt="Digital Clarity Checklist on laptop" class="w-3xl max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-228 md:-ml-4 lg:-ml-0" width="900" height="500" />
+        <img src="/images/ChecklistMockup.png" alt="Digital Clarity Checklist on laptop" class="w-3xl max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-100 md:-ml-4 lg:-ml-0" width="900" height="500" />
       </div>
     </div>
   </div>
   
   <div class="bg-zinc-100 py-24 sm:py-32">
-    <div class="mx-auto max-w-7xl">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 sm:gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
         <div class="col-span-2">
          <!-- <h2 class="text-base/7 font-semibold text-indigo-600">Everything you need</h2> -->
@@ -137,5 +137,21 @@ const features = [
   },
   { name: 'You want your tech to work for you, not against you',
   },]
+
+   useHead({
+      title: 'Digital Clarity Checklist - Dream Digital',
+      meta: [
+        { name: 'description', content: 'Dream Digital - Making tech easy for everyday founders. We provide tailored digital solutions including website setup, CRM tools, AI integration, and ongoing support.' },
+        { name: 'keywords', content: 'digital services, website setup, CRM tools, AI integration, Notion dashboards, tech support, email setup, domain setup' },
+        { name: 'author', content: 'Kerry Kidd' },
+        //{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { property: 'og:title', content: 'Digital Clarity Checlist' },
+        { property: 'og:description', content: 'Making tech easy for everyday founders with tailored digital solutions.' },
+        { property: 'og:image', content: '/images/home.jpg' },
+        { property: 'og:url', content: 'https://dreamdigital.com' },
+        { property: 'og:type', content: 'website' },
+        //{ property: 'robots', content: 'index, follow' }
+        ]
+    });
   
 </script>
