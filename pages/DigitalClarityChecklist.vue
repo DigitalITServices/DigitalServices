@@ -70,8 +70,8 @@
           </ul>
           </div>
         </div>
-
-        <img src="/images/ChecklistMockup.png" alt="Digital Clarity Checklist on laptop" class="w-3xl max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-100 md:-ml-4 lg:-ml-0" width="900" height="500" />
+        
+        <img src="/images/ChecklistMockup.png" alt="Digital Clarity Checklist on laptop" class="inset-0 w-75 h-75" />
       </div>
     </div>
   </div>
