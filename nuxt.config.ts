@@ -21,7 +21,8 @@ export default defineNuxtConfig({
       routes: [
         '/HireMe',
         '/',
-        '/WebDevQuestionaire'
+        '/DigitalClarityChecklist',
+        //'/WebDevQuestionaire'
       ]
     }
   },
