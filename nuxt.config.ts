@@ -20,8 +20,9 @@ export default defineNuxtConfig({
     prerender: {
       routes: [
         '/HireMe',
-        //'/index',
-        '/WebDevQuestionaire'
+        '/',
+        '/DigitalClarityChecklist',
+        //'/WebDevQuestionaire'
       ]
     }
   },
