@@ -4,7 +4,7 @@
         <h2 class="max-w-xl text-3xl font-semibold tracking-tight text-balance text-sky-700 sm:text-4xl lg:col-span-7">
             Get our free Digital Clarity Checklist Straight to your inbox
         </h2>
-      <form class="w-full max-w-md lg:col-span-5 lg:pt-2" name="landingPage" method="POST" netlify>
+      <form class="w-full max-w-md lg:col-span-5 lg:pt-2" name="LandingPage" method="POST" netlify>
         <input type="hidden" name="form-name" value="LandingPage" />
         <div class="flex gap-x-4">
             <label for="name" class="sr-only">
