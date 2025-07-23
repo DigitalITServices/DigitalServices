@@ -22,6 +22,7 @@ export default defineNuxtConfig({
         '/HireMe',
         '/',
         '/DigitalClarityChecklist',
+        '/QRChecklist',
         //'/WebDevQuestionaire'
       ]
     }
