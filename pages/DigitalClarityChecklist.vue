@@ -36,7 +36,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                   </svg>
               <span>
-                Simple password sotrage that saves your sanity
+                Simple password storage that saves your sanity
               </span>
             </li>
             <li class="flex gap-x-3">
