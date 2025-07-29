@@ -108,7 +108,7 @@ const pricing = {
       //featured: true,
     },
     {
-      name: 'Tech Piece of Mind Plan',
+      name: 'Tech Peace of Mind Plan',
       id: 'TechSupportPlan',
       price: '£297 per month',
       description: 'Think of me as your IT bestie.',
