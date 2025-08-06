@@ -166,13 +166,15 @@
                     having the right support when it matters most.
                 </p>
                 <p class="mt-6 text-lg/8 text-gray-700">
-                <i>
-                    Invest in peace of mind. Join the Tech Peace of Mind Plan and experience the confidence that comes from knowing expert help is always just a call away.
-                </i>
-                <a href="https://app.simplymeet.me/dream-digital/dream-digital-30-1751571285886" class="rounded-md bg-violet-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-violet-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600" target="_blank">
-                    Book A Call
-                </a>
-            </p>
+                    <i>
+                        Invest in peace of mind. Join the Tech Peace of Mind Plan and experience the confidence that comes from knowing expert help is always just a call away.
+                    </i>
+                </p>
+                <p class="mt-6 center">
+                    <a href="https://app.simplymeet.me/dream-digital/tech-support" class="rounded-md bg-violet-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-violet-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600" target="_blank">
+                        Secure My Tech Safety Net
+                    </a>
+                </p>
         </div>
         <!--<div class="relative overflow-hidden pt-16 lg:pt-20">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
