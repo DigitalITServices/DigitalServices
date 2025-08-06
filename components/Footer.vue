@@ -73,7 +73,7 @@
             </a>
   
             <a
-               href="mailto:services@raspikidd.com"
+               href="mailto:hello@dreamdigital.uk"
               class="text-gray-500 hover:text-gray-700"
             >
               <span class="sr-only">Email</span>
