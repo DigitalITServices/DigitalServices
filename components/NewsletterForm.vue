@@ -2,8 +2,11 @@
   <div class="bg-fuchsia-100 py-16 sm:py-24 lg:py-32">
     <div class="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 lg:grid-cols-12 lg:gap-8 lg:px-8">
         <h2 class="max-w-xl text-3xl font-semibold tracking-tight text-balance text-sky-700 sm:text-4xl lg:col-span-7">
-            Want product news and updates? Sign up for our newsletter. You will also get a free copy of our "Digital Clarity Checklist" when you subscribe!
+            Want product news and updates? Sign up for our newsletter.
         </h2>
+        <p class="max-w-xl tracking-tight text-balance text-lg font-medium text-pretty text-gray-700 sm:text-xl/8 lg:col-span-7">
+            You will also get a free copy of our "Digital Clarity Checklist" when you subscribe!
+      </p>
       <form class="w-full max-w-md lg:col-span-5 lg:pt-2" name="Newsletter" method="POST" netlify>
         <input type="hidden" name="form-name" value="Newsletter" />
         <div class="flex gap-x-4">
