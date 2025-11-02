@@ -5,7 +5,7 @@
             <div class="flex justify-start lg:w-0 lg:flex-1">
               <NuxtLink to="/">
                 <span class="sr-only">DreamDigital By RaspiKidd</span>
-                <img class="h-8 w-auto sm:h-20" src="/public/images/DreamDigitalLogo.svg" alt="Dream Digital By RaspiKidd Logo">
+                <img class="h-20 w-auto sm:h-40" src="/public/images/DreamDigitalLogo.svg" alt="Dream Digital Logo">
               </NuxtLink>
             </div>
             
