@@ -61,7 +61,7 @@
                     <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
                       <p class="mt-2 text-base/7 text-gray-900">
                         To create a world where every small business owner feels confident, capable, and in control of their digital 
-                        tools—no jargon, no overwhelm, just calm, clever systems that work.
+                        tools.
                       </p>
                     </div>
                   </div>
@@ -71,7 +71,7 @@
                     </p>
                     <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
                       <p class="mt-2 text-base/7 text-gray-900">
-                        At Dream Digital, we help non-tech-savvy founders build smart, simple digital systems for their business. 
+                        At Dream Digital, we help non-tech-savvy business owners build smart, simple digital systems for their business. 
                         From email setup to automation, Notion dashboards to AI tools, we deliver tech support with a human touch so 
                         you can focus on doing what you love, while your systems run smoothly in the background.
                       </p>
@@ -100,24 +100,6 @@
             </div>
           </dl>
         </div>
-  
-        <!-- Team section 
-        <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-48 lg:px-8">
-          <div class="mx-auto max-w-2xl lg:mx-0">
-            <h2 class="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Our team</h2>
-            <p class="mt-6 text-lg/8 text-gray-600">We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.</p>
-          </div>
-          <ul role="list" class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:max-w-4xl lg:gap-x-8 xl:max-w-none">
-        <li v-for="person in people" :key="person.name" class="flex flex-col gap-6 xl:flex-row">
-          <img class="aspect-[4/5] w-52 flex-none rounded-2xl object-cover" :src="person.imageUrl" alt="" />
-          <div class="flex-auto">
-            <h3 class="text-lg font-semibold leading-8 tracking-tight text-gray-900">{{ person.name }}</h3>
-            <p class="text-base leading-7 text-gray-600">{{ person.role }}</p>
-            <p class="mt-6 text-base leading-7 text-gray-600">{{ person.bio }}</p>
-          </div>
-        </li>
-      </ul>
-        </div> -->
       </main>
     </div>
   
