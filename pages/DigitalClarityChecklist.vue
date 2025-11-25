@@ -12,13 +12,12 @@
         Grab your free checklist made for small business owners who want to get digitally organised and clear the clutter. Without the stress, faff or jargon.
       </p>
     </div>
-    </div>
     <div class="overflow-hidden bg-zinc-100 py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
         <div class="lg:pt-4 lg:pr-8">
           <div class="lg:max-w-lg">
-            <h2 class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-sky-700 sm:text-5xl">
+            <h2 class="text-4xl font-semibold tracking-tight text-pretty text-sky-700 sm:text-5xl">
               What's inside the checklist?
             </h2>
             <ul role="list" class="mt-8 space-y-8 text-gray-700 text-xl">
@@ -75,13 +74,12 @@
       </div>
     </div>
   </div>
-  
   <div class="bg-zinc-100 py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 sm:gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
         <div class="col-span-2">
          <!-- <h2 class="text-base/7 font-semibold text-indigo-600">Everything you need</h2> -->
-          <h2 class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-violet-700 sm:text-5xl">
+          <h2 class="text-4xl font-semibold tracking-tight text-pretty text-violet-700 sm:text-5xl">
             Is This You?
           </h2>
         </div>
@@ -97,7 +95,7 @@
           </div>
         </dl>
       </div>
-      <h2 class="text-3xl font-semibold tracking-tight text-sky-700 sm:text-5xl text-center mt-10">
+      <h2 class="text-3xl font-semibold tracking-tight text-sky-700 sm:text-5xl text-center mt-24">
        Then this checklist is for you!
       </h2>
     </div>
@@ -120,6 +118,7 @@
             Book a free clarity call
           </a>
         </div>
+    </div>
     </div>
     </div>
   <Footer />

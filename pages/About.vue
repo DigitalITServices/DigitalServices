@@ -54,6 +54,7 @@
               </div>
               <div class="lg:flex lg:flex-auto lg:justify-center">
                 <dl class="w-64 space-y-8 xl:w-80">
+                  <!-- Vision Section-->
                   <div class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-fuchsia-200 p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start">
                     <p class="flex-none text-3xl font-bold tracking-tight text-fuchsia-700">
                       Vision
@@ -65,6 +66,7 @@
                       </p>
                     </div>
                   </div>
+                  <!-- Mission Section-->
                   <div class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-violet-200 p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start">
                     <p class="flex-none text-3xl font-bold tracking-tight text-violet-700">
                       Mission
