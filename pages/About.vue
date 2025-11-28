@@ -6,7 +6,7 @@
         <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-20 lg:px-8">
           <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
             <h1 class="text-pretty text-3xl font-semibold tracking-tight text-sky-700 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl">
-              About Dream Digital by RaspiKidd
+              About Dream Digital
             </h1>
             <div class="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
               <div class="lg:w-full lg:max-w-2xl lg:flex-auto">
@@ -57,7 +57,7 @@
                   <!-- Vision Section-->
                   <div class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-fuchsia-200 p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start">
                     <p class="flex-none text-3xl font-bold tracking-tight text-fuchsia-700">
-                      Vision
+                      V I S I O N
                     </p>
                     <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
                       <p class="mt-2 text-base/7 text-gray-900">
@@ -69,13 +69,14 @@
                   <!-- Mission Section-->
                   <div class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-violet-200 p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start">
                     <p class="flex-none text-3xl font-bold tracking-tight text-violet-700">
-                      Mission
+                      M I S S I O N
                     </p>
                     <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
                       <p class="mt-2 text-base/7 text-gray-900">
-                        At Dream Digital, we help non-tech-savvy business owners build smart, simple digital systems for their business. 
-                        From email setup to automation, Notion dashboards to AI tools, we deliver tech support with a human touch so 
-                        you can focus on doing what you love, while your systems run smoothly in the background.
+                        Dream Digital exists to be the friendly tech sidekick that keeps your business running 
+                        smoothly. I turn confusing tools into simple, connected systems that save you time and 
+                        cut the stress. Wherever you are in the UK, you get easygoing remote support that makes 
+                        tech feel less like a chore and more like having a digital bestie in your corner.
                       </p>
                     </div>
                   </div>
@@ -92,7 +93,7 @@
               Our values
             </h2>
             <p class="mt-6 text-lg/8 text-gray-700">
-              Our 6 core values are:
+              Our 5 core values are:
             </p>
           </div>
           <dl class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base/7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -122,34 +123,29 @@ const people = [
 ]
 const values = [
     {
-      name: 'Clarity Over Complexity',
+      name: 'E X P E R T I S E',
       description:
-        'We explain things simply and cut through the jargon. Clear systems create confident founders.',
+        'We know the tech inside out, so you don’t have to.',
     },
     {
-      name: 'Calm Is a Feature',
+      name: 'C R E A T I V I T Y',
       description:
-        'Tech can be overwhelming. We bring calm, steady guidance to every setup and support session.',
+        'We find smart solutions that work for your business, not just what is trendy.',
     },
     {
-      name: 'Kindness First',
+      name: 'S U P P O R T',
       description:
-        'Whether you’re asking your first “what’s a domain?” or fine-tuning automations, you’ll always be met with patience, respect, and encouragement.',
+        'We’re here when you need us. With answers that actually help.',
     },
     {
-      name: 'Empower, Don’t Overwhelm',
+      name: 'F R I E N D L Y',
       description:
-        'We don’t just do it for you we show you how, so you’re not dependent. Power = knowledge.',
+        'We explain things in plain English, never making you feel silly for asking.',
     },
     {
-      name: 'Progress, Not Perfection',
+      name: 'E D U C A T I O N',
       description:
-        'Digital systems are always evolving and that’s okay. We build flexibly and iterate without stress.',
-    },
-    {
-      name: 'People Over Platforms',
-      description:
-        'We don’t push fancy tools unless they’re the right fit for you. Your business comes first.',
+        'We help you understand your digital world, so you feel confident using it.',
     },
   ];
 
@@ -161,7 +157,7 @@ const values = [
       { name: 'author', content: 'Kerry Kidd' },
       { property: 'og:title', content: 'About - Dream Digital'},
       { property: 'og:description', content: 'Discover the mission and vision behind Dream Digital, a tech support studio by Kerry Kidd, dedicated to empowering small business owners with simple, effective digital solutions.' },
-      { property: 'og:url', content: 'https://dreamdigital.co.uk/about' },
+      { property: 'og:url', content: 'https://dreamdigital.uk/about' },
       { property: 'og:type', content: 'website' },
     ],
   })
