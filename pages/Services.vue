@@ -143,7 +143,7 @@ useHead({
     { property: 'og:title', content: 'Dream Digital - Services' },
     { property: 'og:description', content: 'Explore our digital services including website setup, Notion dashboards, CRM tools, and ongoing tech support.' },
     //{ property: 'og:image', content: '/images/services.jpg' },
-    { property: 'og:url', content: 'https://dreamdigital.com/services' },
+    { property: 'og:url', content: 'https://dreamdigital.uk/Services' },
     { property: 'og:type', content: 'website' },
   ]
 })

@@ -205,7 +205,7 @@
             { property: 'og:title', content: 'Notion HQ - Dream Digital' },
             { property: 'og:description', content: 'Transform your business operations with Notion HQ. Custom dashboards, client portals, and task tracking in one powerful platform.' },
             //{ property: 'og:image', content: '/images/notion-hq.jpg' },
-            { property: 'og:url', content: 'https://dreamdigital.com/notion-hq' },
+            { property: 'og:url', content: 'https://dreamdigital.uk/NotionHq' },
             { property: 'og:type', content: 'website' }
         ]
     });

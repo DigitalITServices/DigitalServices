@@ -199,7 +199,7 @@
             { property: 'og:title', content: 'Tech Support Plan - Dream Digital' },
             { property: 'og:description', content: 'Eliminate tech anxiety with our Tech Peace of Mind Plan. Monthly support, training, and emergency help for your business.' },
             //{ property: 'og:image', content: '/images/tech-support-plan.jpg' },
-            { property: 'og:url', content: 'https://dreamdigital.com/TechSupportPlan' },
+            { property: 'og:url', content: 'https://dreamdigital.uk/TechSupportPlan' },
             { property: 'og:type', content: 'website' }
         ]
     });

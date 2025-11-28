@@ -157,7 +157,7 @@ const values = [
       { name: 'author', content: 'Kerry Kidd' },
       { property: 'og:title', content: 'About - Dream Digital'},
       { property: 'og:description', content: 'Discover the mission and vision behind Dream Digital, a tech support studio by Kerry Kidd, dedicated to empowering small business owners with simple, effective digital solutions.' },
-      { property: 'og:url', content: 'https://dreamdigital.uk/about' },
+      { property: 'og:url', content: 'https://dreamdigital.uk/About' },
       { property: 'og:type', content: 'website' },
     ],
   })
