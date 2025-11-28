@@ -15,6 +15,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/seo',
+    '@netlify/nuxt',
   ],
 
   nitro: {
