@@ -30,7 +30,6 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    static: true,
     prerender: {
       routes: [
         '/HireMe',
