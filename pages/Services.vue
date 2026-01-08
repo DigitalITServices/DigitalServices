@@ -135,15 +135,15 @@ const pricing = {
   }
 }*/
 useHead({
-  title: 'Services - Dream Digital',
+  title: 'Small Business Tech Services | Dream Digital UK',
   meta: [
-    { name: 'description', content: 'Explore our digital services including website setup, Notion dashboards, CRM tools, and ongoing tech support.' },
-    { name: 'keywords', content: 'digital services, website setup, Notion dashboards, CRM tools, tech support' },
+    { name: 'description', content: 'Practical digital services for small businesses. From email and domains to automations, AI tools, and ongoing support. Explore how Dream Digital helps.' },
+    { name: 'keywords', content: 'small business tech services, digital systems for founders, freelance IT services UK' },
     { name: 'author', content: 'Kerry Kidd' },
     { property: 'og:title', content: 'Dream Digital - Services' },
-    { property: 'og:description', content: 'Explore our digital services including website setup, Notion dashboards, CRM tools, and ongoing tech support.' },
+    { property: 'og:description', content: 'Practical digital services for small businesses. From email and domains to automations, AI tools, and ongoing support. Explore how Dream Digital helps.' },
     //{ property: 'og:image', content: '/images/services.jpg' },
-    { property: 'og:url', content: 'https://dreamdigital.uk/Services' },
+    { property: 'og:url', content: 'https://dreamdigital.uk/services' },
     { property: 'og:type', content: 'website' },
   ]
 })

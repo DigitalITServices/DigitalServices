@@ -181,13 +181,13 @@
 
 <script setup>
     useHead({
-        title: 'Smart Systems Setup - Dream Digital',
+        title: 'Smart Systems & Automations for Small Businesses',
         meta: [
-            { name: 'description', content: 'Transform your business operations with our Smart Systems Setup package. Streamline processes, enhance customer relationships, and boost productivity with intelligent automation.' },
-            { name: 'keywords', content: 'Smart Systems, Automation, CRM, AI Tools, Business Operations, Productivity' },
+            { name: 'description', content: 'Smart digital systems that save time and reduce stress. Automations, integrations, and AI tools built around how your business actually works.' },
+            { name: 'keywords', content: 'business automations, smart digital systems, workflow automation for small businesses' },
             { name: 'author', content: 'Kerry Kidd' },
             { property: 'og:title', content: 'Smart Systems Setup - Dream Digital' },
-            { property: 'og:description', content: 'Revolutionise your business operations with our Smart Systems Setup package. Implement cutting-edge tools to streamline processes and enhance productivity.' },
+            { property: 'og:description', content: 'Smart digital systems that save time and reduce stress. Automations, integrations, and AI tools built around how your business actually works.' },
             //{ property: 'og:image', content: '/images/smart-systems-setup.jpg' },
             { property: 'og:url', content: 'https://dreamdigital.uk/smart-systems' },
             { property: 'og:type', content: 'website' }

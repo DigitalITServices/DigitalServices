@@ -43,7 +43,15 @@
                 </h2>
                 <ul role="list" class="mt-10 max-w-xl text-xl/8" >
                   <li v-for="person in people" :key="person.name" class="flex flex-col gap-6 xl:flex-row">
-                    <img class="aspect-[4/5] w-52 flex-none rounded-2xl object-cover" :src="person.imageUrl" alt="" />
+                    <!-- <img class="aspect-[4/5] w-52 flex-none rounded-2xl object-cover" :src="person.imageUrl" alt="" />-->
+                    <NuxtImg 
+                      :src="person.imageUrl" 
+                      alt="" 
+                      class="aspect-[4/5] w-52 flex-none rounded-2xl object-cover"
+                      width="208"
+                      height="260"
+                      format="webp"
+                      loading="lazy" /> 
                     <div class="flex-auto">
                       <h3 class="text-lg font-semibold leading-8 tracking-tight text-gray-900">{{ person.name }}</h3>
                       <p class="text-base leading-7 text-gray-600">{{ person.role }}</p>
@@ -150,14 +158,14 @@ const values = [
   ];
 
   useHead({
-    title: 'About - Dream Digital',
+    title: 'About Dream Digital | Friendly Freelance Tech Support UK',
     meta: [
-      { name: 'description', content: 'Learn about Dream Digital, a tech support studio founded by Kerry Kidd, dedicated to helping small business owners build smart, simple digital systems.' },
-      { name: 'keywords', content: 'about, digital services, tech support, small business, Kerry Kidd' },
+      { name: 'description', content: 'Meet the freelance digital consultant behind Dream Digital. Friendly, practical tech support helping small business owners feel confident with their systems.' },
+      { name: 'keywords', content: 'freelance digital consultant, small business tech support UK, approachable IT support' },
       { name: 'author', content: 'Kerry Kidd' },
       { property: 'og:title', content: 'About - Dream Digital'},
-      { property: 'og:description', content: 'Discover the mission and vision behind Dream Digital, a tech support studio by Kerry Kidd, dedicated to empowering small business owners with simple, effective digital solutions.' },
-      { property: 'og:url', content: 'https://dreamdigital.uk/About' },
+      { property: 'og:description', content: 'Meet the freelance digital consultant behind Dream Digital. Friendly, practical tech support helping small business owners feel confident with their systems.' },
+      { property: 'og:url', content: 'https://dreamdigital.uk/about' },
       { property: 'og:type', content: 'website' },
     ],
   })
