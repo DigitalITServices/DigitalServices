@@ -72,7 +72,7 @@ const pricing = {
   tiers: [
     {
       name: 'Digital Kickstart',
-      id: 'DigitalKickstart',
+      id: 'digital-kickstart',
       price: '£497',
       description: 'You will look pro and be found online in just a few days.',
       features: [
@@ -85,7 +85,7 @@ const pricing = {
     },
     {
      name: 'Notion HQ',
-      id: 'NotionHq',
+      id: 'notion-hq',
       price: '£997',
       description: 'The only app you need to run everything.',
       features: [
@@ -97,7 +97,7 @@ const pricing = {
     },
     {
       name: 'Smart Systems Setup',
-      id: 'SmartSystems',
+      id: 'smart-systems',
       price: '£1,497',
       description: 'Your biz runs itself, so you can focus on what you love.',
       features: [
@@ -109,7 +109,7 @@ const pricing = {
     },
     {
       name: 'Tech Peace of Mind Plan',
-      id: 'TechSupportPlan',
+      id: 'tech-support-plan',
       price: '£297 per month',
       description: 'Think of me as your IT bestie.',
       features: [

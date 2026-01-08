@@ -24,3 +24,6 @@ logs
 !.env.example
 
 # Local Netlify folder
+
+# Local Netlify folder
+.netlify

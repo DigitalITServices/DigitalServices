@@ -122,7 +122,7 @@
   </main>
 </div>
   <!--Newsletter -->
-  <NewsletterForm />
+  <newsletter-form />
   <!--footer -->
    <Footer />
   </template>
