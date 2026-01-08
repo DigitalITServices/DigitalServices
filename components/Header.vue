@@ -17,15 +17,15 @@
   
             <!-- Desktop Menu -->
             <nav class="hidden md:flex space-x-10">
-              <NuxtLink to="/Services" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-300">
+              <NuxtLink to="/services" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-300">
                 Services
               </NuxtLink>
       
-              <NuxtLink to="/About" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-300">
+              <NuxtLink to="/about" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-300">
                 About
               </NuxtLink>
   
-              <NuxtLink to="/HireMe" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-300">
+              <NuxtLink to="/hire-me" class="text-base font-medium text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-300">
                 Hire Us
               </NuxtLink>
             </nav>
@@ -133,7 +133,7 @@
                                   </div>
                                 </NuxtLink> -->
 
-                                <NuxtLink to="/Services" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-300">
+                                <NuxtLink to="/services" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-300">
                                   <div class="ml-4">
                                     <p class="text-base font-medium text-gray-600">
                                       Services
@@ -141,7 +141,7 @@
                                   </div>
                                 </NuxtLink>
           
-                                <NuxtLink to="/About" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-300">
+                                <NuxtLink to="/about" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-300">
                                   <div class="ml-4">
                                     <p class="text-base font-medium text-gray-600">
                                       About
@@ -149,7 +149,7 @@
                                   </div>
                                 </NuxtLink>
   
-                                 <NuxtLink to="/HireMe" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-300">
+                                 <NuxtLink to="/hire-me" class="text-base font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-violet-300">
                                   <div class="ml-4">
                                     <p class="text-base font-medium text-gray-600">
                                       Hire Us

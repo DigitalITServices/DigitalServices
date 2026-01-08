@@ -100,7 +100,7 @@
       </h2>
     </div>
   </div>
-  <CTAForm />
+  <cta-form />
   <div class="bg-zinc-100 px-6 py-24 sm:py-32 lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
       <h1 class="text-4xl font-semibold tracking-tight text-sky-700 sm:text-6xl">
@@ -147,7 +147,7 @@ const features = [
         { property: 'og:title', content: 'Digital Clarity Checlist' },
         { property: 'og:description', content: 'Making tech easy for everyday founders with tailored digital solutions.' },
         { property: 'og:image', content: '/images/home.jpg' },
-        { property: 'og:url', content: 'https://dreamdigital.uk/digitalclaritychecklist' },
+        { property: 'og:url', content: 'https://dreamdigital.uk/digital-clarity-checklist' },
         { property: 'og:type', content: 'website' },
         //{ property: 'robots', content: 'index, follow' }
         ]

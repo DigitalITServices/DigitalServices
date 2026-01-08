@@ -189,7 +189,7 @@
             { property: 'og:title', content: 'Smart Systems Setup - Dream Digital' },
             { property: 'og:description', content: 'Revolutionise your business operations with our Smart Systems Setup package. Implement cutting-edge tools to streamline processes and enhance productivity.' },
             //{ property: 'og:image', content: '/images/smart-systems-setup.jpg' },
-            { property: 'og:url', content: 'https://dreamdigital.uk/SmartSystems' },
+            { property: 'og:url', content: 'https://dreamdigital.uk/smart-systems' },
             { property: 'og:type', content: 'website' }
         ]
     });

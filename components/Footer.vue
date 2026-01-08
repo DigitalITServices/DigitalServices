@@ -89,7 +89,7 @@
         </a>
       </div>
       <p class="mt-8 text-base text-center text-gray-700">
-        &copy; 2025 Dream Digital. All rights reserved.
+        &copy; 2026 Dream Digital. All rights reserved.
         <a href="/Privacy-Policy.pdf" 
         class="text-gray-900 font-medium hover:text-sky-700"
         target="_blank">
