@@ -16,9 +16,21 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/seo',
     '@netlify/nuxt',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots',
   ],
 
+  site: {
+    name: 'Dream Digital',
+    url: 'https://dreamdigital.uk/',
+  },
+
+   robots: {
+    sitemap: 'https://dreamdigital.uk/sitemap.xml'
+  },
+
   nitro: {
+    static: true,
     prerender: {
       routes: [
         '/HireMe',
