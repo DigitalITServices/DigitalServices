@@ -32,10 +32,10 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       routes: [
-        '/HireMe',
+        '/hire-me',
         '/',
-        '/DigitalClarityChecklist',
-        '/QRChecklist',
+        '/digital-clarity-checklist',
+        '/qr-checklist',
         //'/WebDevQuestionaire'
       ]
     }
