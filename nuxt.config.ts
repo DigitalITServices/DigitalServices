@@ -30,6 +30,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
+    preset: 'netlify',
     static: true,
     prerender: {
       routes: [
