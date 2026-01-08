@@ -5,7 +5,14 @@
             <div class="flex justify-start lg:w-0 lg:flex-1">
               <NuxtLink to="/">
                 <span class="sr-only">DreamDigital By RaspiKidd</span>
-                <img class="h-20 w-auto sm:h-40" src="/public/images/DreamDigitalLogo.svg" alt="Dream Digital Logo">
+                <!-- <img class="h-20 w-auto sm:h-40" src="/public/images/DreamDigitalLogo.svg" alt="Dream Digital logo, small business tech support"> -->
+                <NuxtImg 
+                  src="/images/DreamDigitalLogo.svg" 
+                  alt="Dream Digital logo, small business tech support" 
+                  width="150" 
+                  height="150"
+                  format="webp"
+                  loading="lazy" />
               </NuxtLink>
             </div>
             
@@ -47,7 +54,14 @@
                 <div class="pt-5 pb-6 px-5">
                   <div class="flex items-center justify-between">
                     <NuxtLink to="/">
-                      <img class="h-20 w-auto sm:h-20" src="/public/images/DreamDigitalLogo.svg" alt="Logo">
+                      <!--<img class="h-20 w-auto sm:h-20" src="/public/images/DreamDigitalLogo.svg" alt="Dream Digital logo, small business tech support">-->
+                      <NuxtImg 
+                        src="/images/DreamDigitalLogo.svg" 
+                        alt="Dream Digital logo, small business tech support" 
+                        width="150" 
+                        height="150"
+                        format="webp"
+                        loading="lazy" />
                     </NuxtLink>
                     <div class="flex items-center">
                       <div class="flex-shrink-0">

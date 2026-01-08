@@ -18,6 +18,7 @@ export default defineNuxtConfig({
     '@netlify/nuxt',
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
+    '@nuxt/image',
   ],
 
   site: {
@@ -46,6 +47,13 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'en-GB',
       },
+      meta: [
+        {
+          name: 'description',
+          content:
+            'Friendly UK-based digital support for small businesses. Email and domain setup, automations, AI tools, and ongoing tech help. Get started today.'
+        }
+      ]
     },
   },
 })

@@ -197,13 +197,13 @@
 
 <script setup>
     useHead({
-        title: 'Notion HQ - Dream Digital',
+        title: 'Notion Setup for Small Businesses | Dream Digital',
         meta: [
-            { name: 'description', content: 'Transform your business operations with Notion HQ. Custom dashboards, client portals, and task tracking in one powerful platform.' },
-            { name: 'keywords', content: 'Notion, business management, client portal, task tracking, dashboards' },
+            { name: 'description', content: 'TCustom Notion setups for small businesses. Dashboards, workflows, and systems that keep everything organised and easy to manage.' },
+            { name: 'keywords', content: '	Notion setup for small businesses, Notion consultant UK, business dashboards in Notion' },
             { name: 'author', content: 'Kerry Kidd' },
             { property: 'og:title', content: 'Notion HQ - Dream Digital' },
-            { property: 'og:description', content: 'Transform your business operations with Notion HQ. Custom dashboards, client portals, and task tracking in one powerful platform.' },
+            { property: 'og:description', content: 'Custom Notion setups for small businesses. Dashboards, workflows, and systems that keep everything organised and easy to manage.' },
             //{ property: 'og:image', content: '/images/notion-hq.jpg' },
             { property: 'og:url', content: 'https://dreamdigital.uk/notion-hq' },
             { property: 'og:type', content: 'website' }

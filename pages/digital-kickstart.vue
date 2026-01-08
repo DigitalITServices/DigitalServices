@@ -141,13 +141,13 @@
 
 <script setup>
     useHead({
-        title: 'Digital Kickstart - Launch Your Business Online',
+        title: 'Digital Kickstart for Small Businesses | Dream Digital',
         meta: [
-            { name: 'description', content: 'Digital Kickstart helps you launch your business online quickly with professional email, domain setup, and website builder installation.' },
-            { name: 'keywords', content: 'digital kickstart, business online, email setup, domain setup, website builder' },
+            { name: 'description', content: 'A simple digital kickstart for small businesses. Get email, domains, and core systems set up properly from day one. Start strong with Dream Digital.' },
+            { name: 'keywords', content: 'digital setup for small businesses, business tech starter package, email and domain setup UK' },
             { name: 'author', content: 'Kerry Kidd' },
             { property: 'og:title', content: 'Digital Kickstart - Launch Your Business Online' },
-            { property: 'og:description', content: 'Launch your business online in days with Digital Kickstart. Get professional email, domain setup, and website builder installation.' },
+            { property: 'og:description', content: 'LA simple digital kickstart for small businesses. Get email, domains, and core systems set up properly from day one. Start strong with Dream Digital.' },
             { property: 'og:image', content: '/images/digital-kickstart.jpg' },
             { property: 'og:url', content: 'https://dreamdigital.uk/digital-kickstart' },
             { property: 'og:type', content: 'website' }

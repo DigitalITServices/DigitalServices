@@ -116,7 +116,13 @@
       </div>
     </div>
     <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-        <img class="absolute inset-0 w-full h-full object-cover" src="/images/home.jpg" alt="Kerry creating AI workflows." />
+        <!-- <img class="absolute inset-0 w-full h-full object-cover" src="/images/home.jpg" alt="Kerry creating AI workflows." /> -->
+        <NuxtImg 
+          src="/images/home.jpg" 
+          alt="Kerry creating AI workflows." 
+          class="absolute inset-0 w-full h-full object-cover" 
+          format="webp"
+          loading="lazy" />
         <p class="absolute bottom-0 right-0 text-xs text-gray-600 p-2 bg-white bg-opacity-75">Photo credit: The Strathearn Snapper</p>
       </div>
   </main>
@@ -129,14 +135,14 @@
 
   <script setup>
     useHead({
-      title: 'Home - Dream Digital',
+      title: 'Digital Support for Small Businesses | Dream Digital',
       meta: [
-        { name: 'description', content: 'Dream Digital - Making tech easy for everyday founders. We provide tailored digital solutions including website setup, CRM tools, AI integration, and ongoing support.' },
-        { name: 'keywords', content: 'digital services, website setup, CRM tools, AI integration, Notion dashboards, tech support, email setup, domain setup' },
+        { name: 'description', content: 'Friendly UK-based digital support for small businesses. Email and domain setup, smart automations, AI tools, and ongoing tech help. Get started today.' },
+        { name: 'keywords', content: 'digital support for small businesses, freelance IT support UK, tech help for non-technical founders' },
         { name: 'author', content: 'Kerry Kidd' },
         //{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { property: 'og:title', content: 'Dream Digital - Home' },
-        { property: 'og:description', content: 'Making tech easy for everyday founders with tailored digital solutions.' },
+        { property: 'og:description', content: 'Friendly UK-based digital support for small businesses. Email and domain setup, smart automations, AI tools, and ongoing tech help. Get started today.' },
         { property: 'og:image', content: '/images/home.jpg' },
         { property: 'og:url', content: 'https://dreamdigital.uk' },
         { property: 'og:type', content: 'website' },
