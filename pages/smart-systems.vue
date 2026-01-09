@@ -186,11 +186,14 @@
             { name: 'description', content: 'Smart digital systems that save time and reduce stress. Automations, integrations, and AI tools built around how your business actually works.' },
             { name: 'keywords', content: 'business automations, smart digital systems, workflow automation for small businesses' },
             { name: 'author', content: 'Kerry Kidd' },
-            { property: 'og:title', content: 'Smart Systems Setup - Dream Digital' },
             { property: 'og:description', content: 'Smart digital systems that save time and reduce stress. Automations, integrations, and AI tools built around how your business actually works.' },
             //{ property: 'og:image', content: '/images/smart-systems-setup.jpg' },
             { property: 'og:url', content: 'https://dreamdigital.uk/smart-systems' },
             { property: 'og:type', content: 'website' }
         ]
+    });
+    useSeoMeta({
+      title: 'Smart Systems & Automations for Small Businesses',
+      ogTitle: 'Smarter Systems, Less Manual Work'
     });
 </script>

@@ -196,11 +196,14 @@
             { name: 'description', content: 'Ongoing, jargon-free tech support for small businesses. Fix issues fast, keep systems running smoothly, and get help when you need it.' },
             { name: 'keywords', content: 'ongoing tech support for small businesses, freelance IT support plan, small business tech help UK' },
             { name: 'author', content: 'Kerry Kidd' },
-            { property: 'og:title', content: 'Tech Support Plan - Dream Digital' },
             { property: 'og:description', content: 'Ongoing, jargon-free tech support for small businesses. Fix issues fast, keep systems running smoothly, and get help when you need it.' },
             //{ property: 'og:image', content: '/images/tech-support-plan.jpg' },
             { property: 'og:url', content: 'https://dreamdigital.uk/tech-support-plan' },
             { property: 'og:type', content: 'website' }
         ]
+    });
+    useSeoMeta({
+      title: 'Ongoing Tech Support for Small Businesses | Dream Digital',
+      ogTitle: 'Friendly Ongoing Tech Support for Small Businesses'
     });
 </script>

@@ -141,12 +141,15 @@
         { name: 'keywords', content: 'digital support for small businesses, freelance IT support UK, tech help for non-technical founders' },
         { name: 'author', content: 'Kerry Kidd' },
         //{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { property: 'og:title', content: 'Dream Digital - Home' },
         { property: 'og:description', content: 'Friendly UK-based digital support for small businesses. Email and domain setup, smart automations, AI tools, and ongoing tech help. Get started today.' },
         { property: 'og:image', content: '/images/home.jpg' },
         { property: 'og:url', content: 'https://dreamdigital.uk' },
         { property: 'og:type', content: 'website' },
         //{ property: 'robots', content: 'index, follow' }
         ]
+    });
+    useSeoMeta({
+      title: 'Digital Support for Small Businesses | Dream Digital',
+      ogTitle: 'Digital Support Made Simple for Small Businesses'
     });
   </script>

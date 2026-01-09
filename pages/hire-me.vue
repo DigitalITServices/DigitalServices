@@ -203,11 +203,14 @@
       { name: 'description', content: 'Hire a friendly freelance digital consultant for practical, one-to-one tech support. Ideal for non-technical founders who want things done properly.' },
       { name: 'keywords', content: 'hire a freelance digital consultant, small business tech help UK, one-to-one tech support' },
       { name: 'author', content: 'Kerry Kidd' },
-      {property: 'og:title', content: 'Hire Me - Dream Digital' },
       { property: 'og:description', content: 'Hire a friendly freelance digital consultant for practical, one-to-one tech support. Ideal for non-technical founders who want things done properly.' },
       //{ property: 'og:image', content: '/images/home.jpg' },
       { property: 'og:url', content: 'https://dreamdigital.uk/HireMe' },
       { property: 'og:type', content: 'website' }
     ]
   });
+  useSeoMeta({
+      title: 'Hire a Freelance Digital Consultant | Dream Digital UK',
+      ogTitle: 'One-to-One Tech Help Without the Jargon'
+    });
 </script>

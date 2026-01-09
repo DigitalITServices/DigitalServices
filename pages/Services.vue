@@ -140,11 +140,14 @@ useHead({
     { name: 'description', content: 'Practical digital services for small businesses. From email and domains to automations, AI tools, and ongoing support. Explore how Dream Digital helps.' },
     { name: 'keywords', content: 'small business tech services, digital systems for founders, freelance IT services UK' },
     { name: 'author', content: 'Kerry Kidd' },
-    { property: 'og:title', content: 'Dream Digital - Services' },
     { property: 'og:description', content: 'Practical digital services for small businesses. From email and domains to automations, AI tools, and ongoing support. Explore how Dream Digital helps.' },
     //{ property: 'og:image', content: '/images/services.jpg' },
     { property: 'og:url', content: 'https://dreamdigital.uk/services' },
     { property: 'og:type', content: 'website' },
   ]
-})
+});
+useSeoMeta({
+      title: 'Small Business Tech Services | Dream Digital UK',
+      ogTitle: 'Practical Tech Services for Small Businesses'
+    });
 </script>
