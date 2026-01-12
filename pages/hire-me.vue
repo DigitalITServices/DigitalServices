@@ -192,7 +192,8 @@
       </div>
     </div>
   </section>
-
+  <!--Newsletter -->
+  <newsletter-form />
   <!-- Footer -->
   <Footer />
 </template>

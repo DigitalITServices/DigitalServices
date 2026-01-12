@@ -114,6 +114,9 @@
       </main>
     </div>
   
+  <!--Newsletter -->
+  <newsletter-form />
+  
   <!--footer -->
   <Footer />
 </template>

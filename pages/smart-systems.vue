@@ -176,6 +176,8 @@
             
        <!-- </div> -->
     </div>
+    <!--Newsletter -->
+  <newsletter-form />
     <Footer />
 </template>
 
