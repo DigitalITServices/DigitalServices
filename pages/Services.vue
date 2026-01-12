@@ -1,6 +1,7 @@
 <template>
   <div class="bg-zinc-100">
     <Header />
+    <Breadcrumbs />
     <main>
       <!-- Pricing section -->
       <form class="tiers bg-zinc-100 pt-24 sm:pt-32">
