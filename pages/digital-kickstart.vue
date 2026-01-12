@@ -1,5 +1,6 @@
 <template>
     <Header />
+    <Breadcrumbs />
     <div class="bg-zinc-100 py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
@@ -136,6 +137,9 @@
             
        <!-- </div> -->
     </div>
+    <!--Newsletter -->
+  <newsletter-form />
+  
     <Footer />
 </template>
 
@@ -146,11 +150,14 @@
             { name: 'description', content: 'A simple digital kickstart for small businesses. Get email, domains, and core systems set up properly from day one. Start strong with Dream Digital.' },
             { name: 'keywords', content: 'digital setup for small businesses, business tech starter package, email and domain setup UK' },
             { name: 'author', content: 'Kerry Kidd' },
-            { property: 'og:title', content: 'Digital Kickstart - Launch Your Business Online' },
             { property: 'og:description', content: 'LA simple digital kickstart for small businesses. Get email, domains, and core systems set up properly from day one. Start strong with Dream Digital.' },
             { property: 'og:image', content: '/images/digital-kickstart.jpg' },
             { property: 'og:url', content: 'https://dreamdigital.uk/digital-kickstart' },
             { property: 'og:type', content: 'website' }
         ]
+    });
+    useSeoMeta({
+      title: 'Digital Kickstart for Small Businesses | Dream Digital',
+      ogTitle: 'Get Your Business Tech Set Up Properly'
     });
 </script>

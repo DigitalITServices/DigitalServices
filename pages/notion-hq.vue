@@ -1,5 +1,6 @@
 <template>
     <Header />
+    <Breadcrumbs />
     <div class="bg-zinc-100 py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
@@ -192,6 +193,8 @@
             
        <!-- </div> -->
     </div>
+    <!--Newsletter -->
+  <newsletter-form />
     <Footer />
 </template>
 
@@ -202,11 +205,14 @@
             { name: 'description', content: 'TCustom Notion setups for small businesses. Dashboards, workflows, and systems that keep everything organised and easy to manage.' },
             { name: 'keywords', content: '	Notion setup for small businesses, Notion consultant UK, business dashboards in Notion' },
             { name: 'author', content: 'Kerry Kidd' },
-            { property: 'og:title', content: 'Notion HQ - Dream Digital' },
             { property: 'og:description', content: 'Custom Notion setups for small businesses. Dashboards, workflows, and systems that keep everything organised and easy to manage.' },
             //{ property: 'og:image', content: '/images/notion-hq.jpg' },
             { property: 'og:url', content: 'https://dreamdigital.uk/notion-hq' },
             { property: 'og:type', content: 'website' }
         ]
+    });
+    useSeoMeta({
+      title: 'Notion Setup for Small Businesses | Dream Digital',
+      ogTitle: 'A Clear, Calm Notion Workspace for Your Business'
     });
 </script>

@@ -114,6 +114,9 @@
       </main>
     </div>
   
+  <!--Newsletter -->
+  <newsletter-form />
+  
   <!--footer -->
   <Footer />
 </template>
@@ -163,10 +166,13 @@ const values = [
       { name: 'description', content: 'Meet the freelance digital consultant behind Dream Digital. Friendly, practical tech support helping small business owners feel confident with their systems.' },
       { name: 'keywords', content: 'freelance digital consultant, small business tech support UK, approachable IT support' },
       { name: 'author', content: 'Kerry Kidd' },
-      { property: 'og:title', content: 'About - Dream Digital'},
       { property: 'og:description', content: 'Meet the freelance digital consultant behind Dream Digital. Friendly, practical tech support helping small business owners feel confident with their systems.' },
       { property: 'og:url', content: 'https://dreamdigital.uk/about' },
       { property: 'og:type', content: 'website' },
     ],
-  })
+  });
+  useSeoMeta({
+      title: 'About Dream Digital | Friendly Freelance Tech Support UK',
+      ogTitle: 'Meet the Person Behind Dream Digital'
+    });
 </script>

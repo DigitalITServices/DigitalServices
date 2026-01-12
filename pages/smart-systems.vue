@@ -1,5 +1,6 @@
 <template>
     <Header />
+    <Breadcrumbs />
     <div class="bg-zinc-100 py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
@@ -176,6 +177,8 @@
             
        <!-- </div> -->
     </div>
+    <!--Newsletter -->
+  <newsletter-form />
     <Footer />
 </template>
 
@@ -186,11 +189,14 @@
             { name: 'description', content: 'Smart digital systems that save time and reduce stress. Automations, integrations, and AI tools built around how your business actually works.' },
             { name: 'keywords', content: 'business automations, smart digital systems, workflow automation for small businesses' },
             { name: 'author', content: 'Kerry Kidd' },
-            { property: 'og:title', content: 'Smart Systems Setup - Dream Digital' },
             { property: 'og:description', content: 'Smart digital systems that save time and reduce stress. Automations, integrations, and AI tools built around how your business actually works.' },
             //{ property: 'og:image', content: '/images/smart-systems-setup.jpg' },
             { property: 'og:url', content: 'https://dreamdigital.uk/smart-systems' },
             { property: 'og:type', content: 'website' }
         ]
+    });
+    useSeoMeta({
+      title: 'Smart Systems & Automations for Small Businesses',
+      ogTitle: 'Smarter Systems, Less Manual Work'
     });
 </script>
