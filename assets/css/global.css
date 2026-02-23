@@ -1,0 +1,141 @@
+.markdown-body {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #111111;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Headings */
+.markdown-body h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #0a2540;
+}
+.markdown-body h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: #0a2540;
+}
+.markdown-body h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #0a2540;
+}
+
+/* Paragraphs */
+.markdown-body p {
+  margin: 1rem 0;
+  color: #333333;
+}
+
+/* Links */
+.markdown-body a {
+  color: #0070f3;
+  text-decoration: underline;
+}
+.markdown-body a:hover {
+  text-decoration: none;
+}
+
+/* Lists */
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+.markdown-body li {
+  margin: 0.5rem 0;
+}
+
+/* Images */
+.markdown-body img {
+  max-width: 100%;
+  border-radius: 6px;
+  margin: 1rem 0;
+}
+
+/* Blockquotes */
+.markdown-body blockquote {
+  border-left: 4px solid #0070f3;
+  padding-left: 1rem;
+  color: #555555;
+  margin: 1rem 0;
+  font-style: italic;
+}
+
+/* Code Blocks */
+.markdown-body pre {
+  background: #f4f4f5;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: "Fira Code", monospace;
+  font-size: 0.95rem;
+}
+.markdown-body code {
+  background: #f4f4f5;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: "Fira Code", monospace;
+  font-size: 0.95rem;
+}
+
+/* Horizontal rule */
+.markdown-body hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 2rem 0;
+}
+
+/* Table styling */
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+.markdown-body th,
+.markdown-body td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+.markdown-body th {
+  background-color: #f4f4f5;
+}
+
+/* Optional: responsive images and iframes */
+.markdown-body img,
+.markdown-body iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove anchor link styles from headings */
+.markdown-body h1 a,
+.markdown-body h2 a,
+.markdown-body h3 a,
+.markdown-body h4 a,
+.markdown-body h5 a,
+.markdown-body h6 a {
+  text-decoration: none !important;
+  color: inherit !important;
+  pointer-events: none !important; /* prevents the heading itself from being clickable */
+}
+
+.markdown-body h1 a::before,
+.markdown-body h2 a::before,
+.markdown-body h3 a::before,
+.markdown-body h4 a::before,
+.markdown-body h5 a::before,
+.markdown-body h6 a::before {
+  content: none !important;
+}

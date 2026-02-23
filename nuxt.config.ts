@@ -30,6 +30,7 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
     '@nuxt/image',
+    '@nuxt/content'
   ],
 
   site: {
@@ -40,6 +41,11 @@ export default defineNuxtConfig({
    robots: {
     sitemap: 'https://dreamdigital.uk/sitemap.xml'
   },
+
+  css: [
+    //'github-markdown-css/github-markdown.css',
+    '~/assets/css/global.css' // your custom styles
+  ],
 
   nitro: {
     prerender: {
