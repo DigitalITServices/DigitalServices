@@ -114,7 +114,7 @@ const pricing = {
       name: 'Tech Peace of Mind Plan',
       id: 'tech-support-plan',
       price: '£297 per month',
-      description: 'Think of me as your IT bestie.',
+      description: 'Think of me as your Digital GP - here to keep your systems healthy and fix things when they break.',
       features: [
         'Monthly adhoc support',
         'One to one training calls',
