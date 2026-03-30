@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .markdown-body {
   font-family: "Inter", sans-serif;
   font-size: 1rem;
@@ -8,14 +12,14 @@
   padding: 2rem 1rem;
 }
 
-/* Headings */
+/* Headings */ 
 .markdown-body h1 {
   font-size: 2.25rem;
   font-weight: 700;
   margin-top: 2rem;
   margin-bottom: 1rem;
   color: #0a2540;
-}
+} 
 .markdown-body h2 {
   font-size: 1.75rem;
   font-weight: 600;
@@ -29,22 +33,22 @@
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
   color: #0a2540;
-}
+} 
 
-/* Paragraphs */
+/* Paragraphs */ 
 .markdown-body p {
   margin: 1rem 0;
   color: #333333;
-}
+} 
 
-/* Links */
+/* Links */ 
 .markdown-body a {
   color: #0070f3;
   text-decoration: underline;
 }
 .markdown-body a:hover {
   text-decoration: none;
-}
+} 
 
 /* Lists */
 .markdown-body ul,
@@ -54,23 +58,23 @@
 }
 .markdown-body li {
   margin: 0.5rem 0;
-}
+} 
 
 /* Images */
 .markdown-body img {
   max-width: 100%;
   border-radius: 6px;
   margin: 1rem 0;
-}
+} 
 
-/* Blockquotes */
+/* Blockquotes */ 
 .markdown-body blockquote {
   border-left: 4px solid #0070f3;
   padding-left: 1rem;
   color: #555555;
   margin: 1rem 0;
   font-style: italic;
-}
+} 
 
 /* Code Blocks */
 .markdown-body pre {
@@ -87,16 +91,16 @@
   border-radius: 4px;
   font-family: "Fira Code", monospace;
   font-size: 0.95rem;
-}
+} 
 
-/* Horizontal rule */
+/* Horizontal rule */ 
 .markdown-body hr {
   border: 0;
   border-top: 1px solid #ddd;
   margin: 2rem 0;
-}
+} 
 
-/* Table styling */
+/* Table styling */ 
 .markdown-body table {
   width: 100%;
   border-collapse: collapse;
@@ -119,7 +123,7 @@
   height: auto;
 }
 
-/* Remove anchor link styles from headings */
+/* Remove anchor link styles from headings */ 
 .markdown-body h1 a,
 .markdown-body h2 a,
 .markdown-body h3 a,
@@ -128,7 +132,8 @@
 .markdown-body h6 a {
   text-decoration: none !important;
   color: inherit !important;
-  pointer-events: none !important; /* prevents the heading itself from being clickable */
+  /* prevents the heading itself from being clickable */ 
+  pointer-events: none !important; 
 }
 
 .markdown-body h1 a::before,
@@ -138,4 +143,37 @@
 .markdown-body h5 a::before,
 .markdown-body h6 a::before {
   content: none !important;
+}
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold text-emerald-500;
+  }
+  h2 {
+    @apply text-3xl font-semibold text-emerald-500;
+  }
+  h3 {
+    @apply text-2xl font-semibold text-emerald-500;
+  }
+   body {
+    @apply font-sans text-gray-800 bg-slate-50 text-xl; /* Inter for body */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-semibold; /* DM Sans semi-bold for headings */
+  }
+}
+
+/* Components (reusable UI blocks) */
+@layer components {
+  .btn-primary {
+    @apply bg-green-600 text-white px-4 py-2 rounded;
+  }
+}
+
+/* Utilities (small overrides) */
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
 }

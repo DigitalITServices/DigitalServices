@@ -1,39 +1,39 @@
 <template>
-  <div class="bg-zinc-100">
+  <div class="relative">
     <Header />
     <Breadcrumbs />
     <main>
       <!-- Pricing section -->
-      <form class="tiers bg-zinc-100 pt-24 sm:pt-32">
+      <form class="tiers pt-24 sm:pt-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto max-w-4xl text-center">
-            <h1 class="text-2xl font-bold text-sky-700">Services</h1>
-            <p class="mt-2 text-5xl font-semibold tracking-tight text-balance text-violet-500 sm:text-6xl">
+            <h1 class="text-2xl font-bold">Services</h1>
+            <p class="mt-2 text-5xl font-medium tracking-tight text-balance sm:text-6xl">
               What We Offer
             </p>
           </div>
-          <p class="mx-auto mt-6 max-w-2xl text-center text-4xl font-semibold text-pretty text-sky-700 sm:text-xl/8">
+          <p class="mx-auto mt-6 max-w-2xl text-center text-4xl text-pretty sm:text-xl/8">
             Simple, Friendly Digital Support, Built For Small Business Owners
           </p>
           <div class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-4">
-            <div v-for="tier in pricing.tiers" :key="tier.id" class="group/tier rounded-3xl p-8 ring-1 bg-violet-100 ring-gray-300 data-featured:ring-2 data-featured:ring-indigo-600">
+            <div v-for="tier in pricing.tiers" :key="tier.id" class="group/tier rounded-3xl p-8 ring-1 bg-orange-50 ring-gray-300 data-featured:ring-2 data-featured:ring-indigo-600">
               <div class="flex items-center justify-between gap-x-4">
-                <h3 :id="`tier-${tier.id}`" class="text-center text-xl/8 font-bold text-sky-700">{{ tier.name }}</h3>
+                <h3 :id="`tier-${tier.id}`" class="text-center text-xl/8">{{ tier.name }}</h3>
               </div>
-              <p class="mt-4 text-sm/6 text-gray-600">{{ tier.description }}</p>
+              <p class="mt-4 text-sm/6">{{ tier.description }}</p>
               <p class="text-center mt-6 flex items-baseline gap-x-1">
-                <span class="text-4xl font-semibold tracking-tight text-sky-700">{{ tier.price }}</span>
+                <span class="text-4xl tracking-tight">{{ tier.price }}</span>
               </p>
-              <ul role="list" class="mt-8 space-y-3 text-sm/6 text-gray-600">
+              <ul role="list" class="mt-8 space-y-3 text-sm/6">
                 <li v-for="feature in tier.features" :key="feature" class="flex gap-x-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0284c7" class="size-6">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                   </svg>
                   {{ feature }}
                 </li>
               </ul>
               
-              <NuxtLink :to="`/${tier.id}`" :aria-describedby="`tier-${tier.id}`" class="mt-6 block w-full rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white ring-1 ring-violet-200 ring-inset bg-violet-600">
+              <NuxtLink :to="`/${tier.id}`" :aria-describedby="`tier-${tier.id}`" class="mt-6 block w-full rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white ring-1 ring-green-200 ring-inset bg-green-600">
                 Find Out More →
               </NuxtLink>
             </div>

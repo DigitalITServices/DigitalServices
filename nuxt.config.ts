@@ -70,6 +70,12 @@ export default defineNuxtConfig({
           content:
             'Friendly UK-based digital support for small businesses. Email and domain setup, automations, AI tools, and ongoing tech help. Get started today.'
         }
+      ],
+      link: [
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Inter:wght@400;500;600&display=swap'
+        }
       ]
     },
   },
