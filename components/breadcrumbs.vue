@@ -14,12 +14,19 @@
 </template>
 
 <script setup>
-
-const pages = [
+const route = useRoute()
+const basePages = [
   { name: 'Services', href: '/Services', current: true },
   { name: 'Digital Kickstart', href: '/digital-kickstart', current: false },
   { name: 'Notion HQ', href: '/notion-hq', current: false },
   { name: 'Smart System Setup', href: '/smart-systems', current: false },
   { name: 'Tech Peace of Mind Plan', href: '/tech-support-plan', current: false },
 ]
+
+const pages = computed(() =>
+  basePages.map(page => ({
+    ...page,
+    current: route.path === page.href
+  }))
+)
 </script>
