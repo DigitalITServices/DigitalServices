@@ -6,7 +6,7 @@
   font-family: "Inter", sans-serif;
   font-size: 1rem;
   line-height: 1.7;
-  color: #111111;
+  color: #1f2933;
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem 1rem;
@@ -14,36 +14,39 @@
 
 /* Headings */ 
 .markdown-body h1 {
+  font-family: "DM Sans", sans-serif;
   font-size: 2.25rem;
   font-weight: 700;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  color: #0a2540;
+  color: #7bae7f;
 } 
 .markdown-body h2 {
+  font-family: "DM Sans", sans-serif;
   font-size: 1.75rem;
   font-weight: 600;
   margin-top: 2rem;
   margin-bottom: 0.75rem;
-  color: #0a2540;
+  color: #7bae7f;
 }
 .markdown-body h3 {
+  font-family: "DM Sans", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
-  color: #0a2540;
+  color: #7bae7f;
 } 
 
 /* Paragraphs */ 
 .markdown-body p {
   margin: 1rem 0;
-  color: #333333;
+  color: #1f2933;
 } 
 
 /* Links */ 
 .markdown-body a {
-  color: #0070f3;
+  color: #4caf50;
   text-decoration: underline;
 }
 .markdown-body a:hover {
@@ -69,16 +72,16 @@
 
 /* Blockquotes */ 
 .markdown-body blockquote {
-  border-left: 4px solid #0070f3;
+  border-left: 4px solid #4caf50;
   padding-left: 1rem;
-  color: #555555;
+  color: #f3ede4;
   margin: 1rem 0;
   font-style: italic;
 } 
 
 /* Code Blocks */
 .markdown-body pre {
-  background: #f4f4f5;
+  background: #f3ede4;
   padding: 1rem;
   border-radius: 6px;
   overflow-x: auto;
@@ -86,7 +89,7 @@
   font-size: 0.95rem;
 }
 .markdown-body code {
-  background: #f4f4f5;
+  background: #f3ede4;
   padding: 0.2rem 0.4rem;
   border-radius: 4px;
   font-family: "Fira Code", monospace;
@@ -147,10 +150,10 @@
 
 @layer base {
   h1 {
-    @apply text-4xl font-bold text-emerald-500;
+    @apply text-4xl font-bold text-emerald-500 sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl;
   }
   h2 {
-    @apply text-3xl font-semibold text-emerald-500;
+    @apply text-3xl font-semibold text-emerald-500 sm:text-5xl;
   }
   h3 {
     @apply text-2xl font-semibold text-emerald-500;

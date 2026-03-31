@@ -7,10 +7,10 @@
       <form class="tiers pt-24 sm:pt-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto max-w-4xl text-center">
-            <h1 class="text-2xl font-bold">Services</h1>
-            <p class="mt-2 text-5xl font-medium tracking-tight text-balance sm:text-6xl">
+            <h1 class="text-2xl text-green-600">Services</h1>
+            <h2 class="mt-2 tracking-tight text-balance">
               What We Offer
-            </p>
+            </h2>
           </div>
           <p class="mx-auto mt-6 max-w-2xl text-center text-4xl text-pretty sm:text-xl/8">
             Simple, Friendly Digital Support, Built For Small Business Owners
