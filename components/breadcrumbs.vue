@@ -1,21 +1,7 @@
 <template>
   <nav class="bg-orange-50 overflow-x-auto" aria-label="Breadcrumb">
-    <ol
-  role="list"
-  class="flex whitespace-nowrap space-x-4 rounded-md bg-orange-50 px-4 sm:px-6 shadow-sm dark:shadow-none dark:outline dark:-outline-offset-1 dark:outline-white/10"
->
-      <li class="flex">
-        <div class="flex items-center">
-          <a href="/" class="text-green-600 hover:text-emerald-500 dark:text-green-600 dark:hover:text-emerald-500">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
-            </svg>
-
-            <span class="sr-only">Home</span>
-          </a>
-        </div>
-      </li>
-      <li v-for="page in pages" :key="page.name" class="flex">
+    <ol role="list" class="flex whitespace-nowrap space-x-4 rounded-md bg-orange-50 px-4 sm:px-6 shadow-sm dark:shadow-none dark:outline dark:-outline-offset-1 dark:outline-white/10">
+      <li v-for="page in pages.filter(page => !page.current)" :key="page.name" class="flex">
         <div class="flex items-center">
           <svg class="h-full w-6 shrink-0 text-green-600 dark:text-white/10" viewBox="0 0 24 44" preserveAspectRatio="none" fill="currentColor" aria-hidden="true">
             <path d="M.293 0l22 22-22 22h1.414l22-22-22-22H.293z" />
