@@ -129,7 +129,7 @@
   </main>
 </div>
   <!--Newsletter -->
-  <newsletter-form />
+  <newsletter-form class="mt-10" />
   <!--footer -->
    <Footer />
   </template>

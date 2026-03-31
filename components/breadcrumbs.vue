@@ -1,6 +1,9 @@
 <template>
-  <nav class="flex bg-slate-50" aria-label="Breadcrumb">
-    <ol role="list" class="flex space-x-4 rounded-md bg-slate-50 px-6 shadow-sm dark:shadow-none dark:outline dark:-outline-offset-1 dark:outline-white/10">
+  <nav class="bg-orange-50 overflow-x-auto" aria-label="Breadcrumb">
+    <ol
+  role="list"
+  class="flex whitespace-nowrap space-x-4 rounded-md bg-orange-50 px-4 sm:px-6 shadow-sm dark:shadow-none dark:outline dark:-outline-offset-1 dark:outline-white/10"
+>
       <li class="flex">
         <div class="flex items-center">
           <a href="/" class="text-green-600 hover:text-emerald-500 dark:text-green-600 dark:hover:text-emerald-500">

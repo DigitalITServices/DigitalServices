@@ -12,11 +12,11 @@
               What We Offer
             </h2>
           </div>
-          <p class="mx-auto mt-6 max-w-2xl text-center text-4xl text-pretty sm:text-xl/8">
+          <p class="mx-auto mt-6 max-w-2xl text-center text-pretty">
             Simple, Friendly Digital Support, Built For Small Business Owners
           </p>
           <div class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-4">
-            <div v-for="tier in pricing.tiers" :key="tier.id" class="group/tier rounded-3xl p-8 ring-1 bg-orange-50 ring-gray-300 data-featured:ring-2 data-featured:ring-indigo-600">
+            <div v-for="tier in pricing.tiers" :key="tier.id" class="group/tier rounded-3xl p-8 ring-1 bg-emerald-50 ring-gray-300 data-featured:ring-2 data-featured:ring-indigo-600">
               <div class="flex items-center justify-between gap-x-4">
                 <h3 :id="`tier-${tier.id}`" class="text-center text-xl/8">{{ tier.name }}</h3>
               </div>
@@ -65,7 +65,7 @@
       </div> -->
     </main>
     <!--Newsletter -->
-  <newsletter-form />
+  <newsletter-form class="mt-10" />
     <Footer />
   </div>
 </template>
