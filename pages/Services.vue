@@ -9,9 +9,12 @@
         </h1>
         <p class="mt-8">
           Too many tools? Messy systems? <br>
-          I help small business owners fix what’s not working and make everything run smoothly.
+          I help you fix what’s not working and make everything run smoothly.
         </p>
-
+        <p class="mt-3 text-base/10">
+          Working with solo founders and small businesses <br> 
+          who are tired of figuring it all out themselves.
+        </p>
         <!-- CTA Section -->
         <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-10 lg:px-8 sm:rounded-3xl bg-emerald-50">
           <div class="mx-auto max-w-2xl lg:mx-0">
@@ -44,9 +47,16 @@
         <p class="mt-4 font-medium">
           That’s when things start to feel messy.
         </p>
+
+        <h2 class="mt-12 text-pretty tracking-tight">
+          How I can help
+        </h2>
+        <p class="mt-4">
+          Simple, practical support to get your tech working properly.
+        </p>
       </div>
       <!-- Pricing section -->
-      <form class="tiers pt-12 sm:pt-16">
+      <form class="tiers pt-6 sm:pt-8">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-3">
             <div v-for="tier in pricing.tiers" :key="tier.id" class="group/tier rounded-3xl p-8 ring-1 bg-emerald-50 ring-gray-300 data-featured:ring-2 data-featured:ring-indigo-600">
@@ -56,6 +66,9 @@
               <p class="mt-4 text-sm/6">{{ tier.description }}</p>
               <p class="text-center mt-6 flex items-baseline gap-x-1">
                 <span class="text-4xl tracking-tight text-green-600"> {{ tier.price }}</span>
+              </p>
+              <p class="mt-4 text-sm/6"> 
+                Every business is different, so I’ll always recommend the simplest option that works for you. 
               </p>
               <ul role="list" class="mt-8 space-y-3 text-sm/6">
                 <li v-for="feature in tier.features" :key="feature" class="flex gap-x-3">
@@ -103,7 +116,7 @@
           </span>
         </h3>
         <p class="mt-3 text-left">
-          Everything is set up so it runs smoothly without you thinking about it
+          Everything is set up so it runs smoothly without you needing to remember every step
         </p>
 
         <h2 class="mt-12 text-pretty tracking-tight">
@@ -172,8 +185,11 @@
               </a>
               <NuxtLink to="/digital-clarity-checklist" class="rounded-md px-3.5 py-2.5 text-sm font-semibold text-gray-800 outline-gray-800 shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2  hover:bg-emerald-100 focus-visible:outline-indigo-600">
                 Download the Checklist
-              </NuxtLink>  
+              </NuxtLink>
             </div>
+            <p class="mt-3 text-bold">
+                No pressure. No jargon. Just clear next steps.
+              </p>
           </div>
         </div>
       </div>
@@ -276,9 +292,9 @@ const pricing = {
   }
 }*/
 useHead({
-  title: 'Small Business Tech Services | Dream Digital UK',
+  title: 'Small Business Tech Support & Website Setup | Dream Digital',
   meta: [
-    { name: 'description', content: 'Practical digital services for small businesses. From email and domains to automations, AI tools, and ongoing support. Explore how Dream Digital helps.' },
+    { name: 'description', content: 'Tech support for small businesses. Fix messy systems, simplify your setup, and get everything running smoothly with Dream Digital.' },
     { name: 'keywords', content: 'small business tech services, digital systems for founders, freelance IT services UK' },
     { name: 'author', content: 'Kerry Kidd' },
     { property: 'og:description', content: 'Practical digital services for small businesses. From email and domains to automations, AI tools, and ongoing support. Explore how Dream Digital helps.' },
@@ -288,7 +304,7 @@ useHead({
   ]
 });
 useSeoMeta({
-      title: 'Small Business Tech Services | Dream Digital UK',
-      ogTitle: 'Practical Tech Services for Small Businesses'
+      title: 'Small Business Tech Support & Website Setup | Dream Digital',
+      ogTitle: 'Small Business Tech Support & Website Setup | Dream Digital'
     });
 </script>
