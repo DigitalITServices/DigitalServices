@@ -9,111 +9,170 @@
             <h1 class="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
               <span class="block text-sky-900 xl:inline">Dream </span> 
               <span class="block text-green-900 xl:inline">Digital </span> <br>
-              <span class="block xl:inline xl:text-5xl">Making tech easy </span> <br>
-              <span class="block xl:inline xl:text-5xl">for everyday founders</span>
+              <span class="block xl:inline xl:text-5xl">Your business tech, simplified</span>
             </h1>
         
-       <!--<div class="grid grid-cols-2 grid-rows-2 gap-2 place-items-auto h-30 mt-10 sm:ml-3">-->
-          <p class="p-9 text-xl">
-            We don’t believe in bamboozling clients with acronyms or one size fits all systems. Instead, we meet you where you are, 
-            listen to what you need, and build you a system that’s tailored, tidy, and totally manageable.
+            <!--<div class="grid grid-cols-2 grid-rows-2 gap-2 place-items-auto h-30 mt-10 sm:ml-3">-->
+            <p class="p-9 text-xl text-bold text-gray-900">
+              I help small business owners fix messy systems, set up what actually works, and take the stress out 
+              of the backend.
+            </p>
+            <!-- CTA Section -->
+            <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-10 lg:px-8 sm:rounded-3xl bg-emerald-50">
+              <div class="mx-auto max-w-2xl lg:mx-0">
+                <h3 class="text-pretty tracking-tight">
+                  Get your setup sorted
+                </h3>
+                <p class="mt-3 text-lg/8">
+                  Not sure where to start? Let’s simplify it.
+                </p>
+                <div class="mt-10 flex items-center justify-center gap-x-6">
+                  <a href="https://app.simplymeet.me/dream-digital/discovery-call" class="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-green-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-700" target="_blank">
+                    Book a Free Clarity Call
+                  </a>
+                  <NuxtLink to="/digital-clarity-checklist" class="rounded-md px-3.5 py-2.5 text-sm font-semibold text-gray-800 outline-gray-800 shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2  hover:bg-emerald-100 focus-visible:outline-indigo-600">
+                    Download the Checklist
+                  </NuxtLink>  
+                </div>
+              </div>
+            </div>
+
+            <h2 class="mt-12 text-pretty tracking-tight">
+              Most small businesses don’t have a tech problem
+            </h2>
+            <h3 class="mt-8 text-pretty text-gray-800 tracking-tight">
+              They have a too many tools, no clear system
+            </h3>
+
+            <p class="mt-3 flex">
+              Things feel messy because:
+            </p>
+
+            <ul role="list" class="mt-8 space-y-8">
+              <li class="flex gap-x-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                  <path d="M16.5 7.5h-9v9h9v-9Z" />
+                  <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                </svg>
+
+                <span>
+                  Things live in too many places
+                </span>
+              </li>
+              <li class="flex gap-x-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                  <path d="M16.5 7.5h-9v9h9v-9Z" />
+                  <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                </svg>
+
+                <span>
+                  Nothing connects
+                </span>
+              </li>
+              <li class="flex gap-x-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                  <path d="M16.5 7.5h-9v9h9v-9Z" />
+                  <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                </svg>
+
+                <span> 
+                  You’re wasting time on admin
+                </span>
+              </li>
+            </ul>
+
+            <form class="tiers pt-12 sm:pt-16">
+              <div class="mx-auto max-w-7xl px-6 lg:px-8">
+                <div class="mx-auto max-w-4xl text-center">
+                  <h2 class="mt-2 tracking-tight text-balance">
+                    How I Help
+                  </h2>
+                </div>
+                <p class="mx-auto mt-6 max-w-2xl text-center text-pretty">
+                  Simple, practical support to get your tech working properly.
+                </p>
+                <div class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-2">
+                  <div v-for="tier in pricing.tiers" :key="tier.id" class="group/tier rounded-3xl p-8 ring-1 bg-emerald-50 ring-gray-300 data-featured:ring-2 data-featured:ring-indigo-600">
+                    <div class="flex items-center justify-between gap-x-4">
+                      <h3 :id="`tier-${tier.id}`" class="text-center text-xl/8">
+                        {{ tier.name }}
+                      </h3>
+                    </div>
+                    <p class="mt-4 text-sm/6">
+                      {{ tier.description }}
+                    </p>
+              <!--<p class="text-center mt-6 flex items-baseline gap-x-1">
+                <span class="text-4xl tracking-tight">{{ tier.price }}</span>
+              </p>
+              <ul role="list" class="mt-8 space-y-3 text-sm/6">
+                <li v-for="feature in tier.features" :key="feature" class="flex gap-x-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                  </svg>
+                  {{ feature }}
+                </li>
+              </ul>
+              
+              <NuxtLink :to="`/${tier.id}`" :aria-describedby="`tier-${tier.id}`" class="mt-6 block w-full rounded-md px-3 py-2 text-center text-sm/6 font-semibold text-white ring-1 ring-green-200 ring-inset bg-green-600">
+                Find Out More →
+              </NuxtLink> -->
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <h2 class="mt-12 tracking-tight text-balance">
+        How it Works
+      </h2>
+      <h3 class="mt-8 tracking-tight text-balance text-green-600 text-left">
+        Step 1: 
+        <span class="text-gray-800"> 
+          We look at what you’ve got
+        </span>
+      </h3>
+      <p class="mt-3 text-left">
+        A quick review of your current setup
+      </p>
+      <h3 class="mt-8 tracking-tight text-balance text-green-600 text-left">
+        Step 2: 
+        <span class="text-gray-800"> 
+          We simplify it
+        </span>
+      </h3>
+      <p class="mt-3 text-left">
+        We remove what you don’t need and organise what stays
+      </p>
+      <h3 class="mt-8 tracking-tight text-balance text-green-600 text-left">
+        Step 3: 
+        <span class="text-gray-800"> 
+          We make it work properly
+        </span>
+      </h3>
+      <p class="mt-3 text-left">
+        Everything is set up so it runs smoothly without you thinking about it
+      </p>
+
+      <!-- CTA Section -->
+      <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-10 lg:px-8 sm:rounded-3xl bg-emerald-50">
+        <div class="mx-auto max-w-2xl lg:mx-0">
+          <h3 class="text-pretty tracking-tight">
+            Get your setup sorted
+          </h3>
+          <p class="mt-3 text-lg/8">
+            Not sure where to start? Let’s simplify it.
           </p>
-
-          <h2 class="mt-5 text-pretty text-4xl font-semibold tracking-tight sm:text-5xl">
-                  What We Can Help You With
-          </h2>
-
-          <ul role="list" class="mt-8 space-y-8 text-xl">
-            <li class="flex gap-x-3">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7bae7f" class="size-10">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
-              </svg>
-
-              <span>
-                <strong class="font-semibold text-green-600">
-                  Email & Domain Setup:
-                </strong> 
-                Get a professional email address and domain that makes your business look legit from day one.
-              </span>
-            </li>
-            <li class="flex gap-x-3">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7bae7f" class="size-10">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
-              </svg>
-
-
-              <span>
-                <strong class="font-semibold text-green-600">
-                  Website Setup & Support:
-                </strong> 
-                Simple, effective websites that show off what you do without the hassle.
-              </span>
-            </li>
-            <li class="flex gap-x-3">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7bae7f" class="size-10">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
-              </svg>
-
-              <span>
-                <strong class="font-semibold text-green-600">
-                   CRM & Automation Tools:
-                </strong> 
-                Automate your client onboarding, scheduling, and follow-ups so nothing slips through the cracks.
-              </span>
-            </li>
-            <li class="flex gap-x-3">
-              <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24"  fill="#7bae7f" viewBox="0 0 24 24" class="size-10">
-                <!--Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free-->
-                <path d="M8.5 10A1.5 2 0 1 0 8.5 14 1.5 2 0 1 0 8.5 10z"></path>
-                <path d="M15.5 10A1.5 2 0 1 0 15.5 14 1.5 2 0 1 0 15.5 10z"></path>
-                <path d="M8 16H16V18H8z"></path>
-                <path d="m21,11v-3c0-1.1-.9-2-2-2h-6v-1.39c.3-.27.5-.67.5-1.11,0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5,1.5c0,.44.2.84.5,1.11v1.39h-6c-1.1,0-2,.9-2,2v3c-.55,0-1,.45-1,1v4c0,.55.45,1,1,1v3c0,1.1.9,2,2,2h14c1.1,0,2-.9,2-2v-3c.55,0,1-.45,1-1v-4c0-.55-.45-1-1-1ZM5,20v-12h14v4s0,0,0,0v4s0,0,0,0v4s-14,0-14,0Z"></path>
-              </svg>
-
-              <span>
-                <strong class="font-semibold text-green-600">
-                   AI Integration:
-                </strong> 
-                Add smart tools to your workflow (like chatbots, email drafts, or idea generators) to save time and stress.
-              </span>
-            </li>
-            <li class="flex gap-x-3">
-              <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#7bae7f" viewBox="0 0 24 24" class="size-10">
-              <!--Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free-->
-              <path d="m19,2H5c-.55,0-1,.45-1,1v4h-2v2h2v2h-2v2h2v2h-2v2h2v4c0,.55.45,1,1,1h14c1.1,0,2-.9,2-2V4c0-1.1-.9-2-2-2Zm-13,2h8v16H6V4Zm13,16h-3V4h3v16Z"></path>
-              </svg>
-
-              <span>
-                <strong class="font-semibold text-green-600">
-                   Notion Dashboards & Systems:
-                </strong> 
-                Custom Notion workspaces to run your whole business from one calm, organised place.
-              </span>
-            </li>
-            <li class="flex gap-x-3">
-              <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24"  fill="#7bae7f" viewBox="0 0 24 24" class="size-10">
-                <!--Boxicons v3.0 https://boxicons.com | License  https://docs.boxicons.com/free-->
-                <path d="M11 7h2v4.5h-2zM11 13h2v2h-2z"></path><path d="M12 3C6.49 3 2 6.59 2 11c0 2.91 1.9 5.51 5 6.93V23l5.34-4c5.36-.14 9.66-3.67 9.66-8s-4.49-8-10-8m0 14h-.33L9 19v-2.42l-.64-.25C5.67 15.29 4 13.25 4 10.99c0-3.31 3.59-6 8-6s8 2.69 8 6-3.59 6-8 6Z"></path>
-              </svg>
-
-              <span>
-                <strong class="font-semibold text-green-600">
-                   Ongoing Tech Support & Training:
-                </strong> 
-                Think of us as your friendly freelance IT department — here when you need a fix, a nudge, or a walkthrough.
-              </span>
-            </li>
-          </ul>
-
-
-         <!-- <div class="rounded-md shadow sm:mt-0 sm:ml-3">
-  
-            <NuxtLink to="/Design" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-base rounded-md rounded-md bg-violet-600 hover:bg-violet-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-500 text-white md:py-4 md:text-lg md:px-4">
-              Find out more
-            </NuxtLink>
-          </div>-->
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <a href="https://app.simplymeet.me/dream-digital/discovery-call" class="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-green-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-700" target="_blank">
+              Book a Free Clarity Call
+            </a>
+            <NuxtLink to="/digital-clarity-checklist" class="rounded-md px-3.5 py-2.5 text-sm font-semibold text-gray-800 outline-gray-800 shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2  hover:bg-emerald-100 focus-visible:outline-indigo-600">
+              Download the Checklist
+            </NuxtLink>  
+          </div>
+        </div>
       </div>
     </div>
+  </div>
     <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
         <!-- <img class="absolute inset-0 w-full h-full object-cover" src="/images/home.jpg" alt="Kerry creating AI workflows." /> -->
         <NuxtImg 
@@ -135,6 +194,47 @@
   </template>
 
   <script setup>
+  const pricing = {
+  tiers: [
+    {
+      name: 'Website Setup',
+      id: 'website-setup',
+      //price: '£497',
+      description: 'A clean, simple site that clearly explains what you do and brings in enquiries',
+      //features: [
+        //'Domain & Email Setup', 
+        //'Website builder install/template', 
+        //'Business email flows'
+      //],
+      //button: 'Find Out More →',
+      //featured: false,
+    },
+    {
+     name: 'Tech Support Plan',
+      id: 'tech-support-plan',
+      price: '£997',
+      description: 'Ongoing support so your systems stay organised and nothing piles up',
+      features: [
+        'Custom Notion Dashboards',
+        'Client Portal',
+        'Business wiki & Task Tracker', 
+      ],
+      //featured: false,
+    },
+    {
+      name: 'System Clean-up',
+      id: 'system-clean-up',
+      price: '£1,497',
+      description: 'We fix what’s messy, simplify your setup, and make everything easier to manage',
+      features: [
+        'CRM Setup', 
+        'Automation Workflows', 
+        'AI Productivity tools'
+      ],
+      //featured: true,
+    },
+  ],
+}
     useHead({
       title: 'Digital Support for Small Businesses | Dream Digital',
       meta: [
