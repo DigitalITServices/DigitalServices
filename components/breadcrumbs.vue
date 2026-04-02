@@ -17,10 +17,9 @@
 const route = useRoute()
 const basePages = [
   { name: 'Services', href: '/Services', current: true },
-  { name: 'Digital Kickstart', href: '/digital-kickstart', current: false },
-  { name: 'Notion HQ', href: '/notion-hq', current: false },
-  { name: 'Smart System Setup', href: '/smart-systems', current: false },
+  { name: 'Website Setup', href: '/digital-kickstart', current: false },
   { name: 'Tech Peace of Mind Plan', href: '/tech-support-plan', current: false },
+  { name: 'System Clean-up', href: '/smart-systems', current: false },
 ]
 
 const pages = computed(() =>
