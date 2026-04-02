@@ -14,8 +14,8 @@
         
             <!--<div class="grid grid-cols-2 grid-rows-2 gap-2 place-items-auto h-30 mt-10 sm:ml-3">-->
             <p class="p-9 text-xl text-bold text-gray-900">
-              I help small business owners fix messy systems, set up what actually works, and take the stress out 
-              of the backend.
+              Too many tools? Messy systems? <br>
+              I help small business owners fix what’s not working and make everything run smoothly.
             </p>
             <!-- CTA Section -->
             <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-10 lg:px-8 sm:rounded-3xl bg-emerald-50">
@@ -38,14 +38,14 @@
             </div>
 
             <h2 class="mt-12 text-pretty tracking-tight">
-              Most small businesses don’t have a tech problem
+              They don’t have a tech problem
             </h2>
             <h3 class="mt-8 text-pretty text-gray-800 tracking-tight">
-              They have a too many tools, no clear system
+              They have too many tools and no clear system
             </h3>
 
             <p class="mt-3 flex">
-              Things feel messy because:
+              This is what it usually looks like:
             </p>
 
             <ul role="list" class="mt-8 space-y-8">
@@ -131,7 +131,7 @@
         </span>
       </h3>
       <p class="mt-3 text-left">
-        A quick review of your current setup
+        A quick review of your current setup so we can see what’s working and what’s not
       </p>
       <h3 class="mt-8 tracking-tight text-balance text-green-600 text-left">
         Step 2: 
@@ -197,10 +197,10 @@
   const pricing = {
   tiers: [
     {
-      name: 'Website Setup',
+      name: 'Get a website that actually brings enquiries',
       id: 'website-setup',
       //price: '£497',
-      description: 'A clean, simple site that clearly explains what you do and brings in enquiries',
+      description: 'A clean, simple site that clearly explains what you do and makes it easy for people to get in touch',
       //features: [
         //'Domain & Email Setup', 
         //'Website builder install/template', 
@@ -210,22 +210,22 @@
       //featured: false,
     },
     {
-     name: 'Tech Support Plan',
+     name: 'Stop wasting time on messy systems',
       id: 'tech-support-plan',
-      price: '£997',
-      description: 'Ongoing support so your systems stay organised and nothing piles up',
-      features: [
+      //price: '£997',
+      description: 'We organise and simplify your setup so everything is in the right place and easy to use',
+      /*features: [
         'Custom Notion Dashboards',
         'Client Portal',
         'Business wiki & Task Tracker', 
-      ],
+      ],*/
       //featured: false,
     },
     {
-      name: 'System Clean-up',
+      name: 'Have someone to rely on when things break',
       id: 'system-clean-up',
       price: '£1,497',
-      description: 'We fix what’s messy, simplify your setup, and make everything easier to manage',
+      description: 'Ongoing support so your systems stay organised and nothing piles up',
       features: [
         'CRM Setup', 
         'Automation Workflows', 
