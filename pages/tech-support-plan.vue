@@ -4,214 +4,281 @@
     <div class="py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+                <!-- HERO SECTION-->
                 <p class="text-base/7 font-bold text-green-600">
                     Tech Peace of Mind Plan
                 </p>
                 <h1 class="mt-2 tracking-tight text-pretty">
-                    Never Face Tech Challenges Alone Again
+                    Ongoing tech support, without the stress
                 </h1>
                 <p class="mt-6">
-                    Technology should empower your business, not keep you awake at night worrying about what might 
-                    go wrong. Every business owner knows the dread of technical issues striking at the worst 
-                    possible moment, websites crashing during busy periods, email systems failing before important 
-                    pitches, or key software behaving mysteriously when deadlines loom. The Tech Peace of Mind 
-                    Plan ensures you're never stranded when technology lets you down.
+                    Things breaking? Tools not working properly? <br />
+                    Instead of Googling fixes or putting it off, you’ve got someone to sort it for you.
                 </p>
-                <div class="mt-10 grid max-w-xl grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-2">
-                    <div>
-                        <h2 class="text-3xl">
-                            What is Included
-                        </h2>
-                        <p class="mt-8">
-                            <strong class="font-medium text-green-600">
-                                Monthly Adhoc Support:
-                            </strong> 
-                            Your dedicated tech support allowance that's always there when you need it most. 
-                            Whether you're struggling with software quirks, need help implementing new tools, or 
-                            require assistance troubleshooting unexpected issues, you have direct access to expert 
-                            help without the panic of finding someone reliable at short notice. This isn't just 
-                            break-fix support, it's a proactive partnership. Use your monthly allocation for 
-                            anything from optimising existing systems and integrating new software to getting 
-                            second opinions on tech decisions. Having this support in your back pocket means you 
-                            can confidently explore new opportunities and solutions, knowing expert help is just 
-                            a message away.
-                        </p>
-                        <p class="mt-8">
-                            <strong class="font-medium text-green-600">
-                                One-to-One Training Calls:
-                            </strong>
-                            Transform from technology user to technology master through personalised training 
-                            sessions designed around your specific needs and learning style. Rather than struggling 
-                            through generic tutorials or wasting hours trying to figure things out alone, you 
-                            receive focused, one-on-one instruction that gets you up to speed quickly and 
-                            efficiently. Whether you need to master new software your business depends on, 
-                            understand advanced features that could save you hours each week, or simply gain 
-                            confidence using tools that intimidate you, these sessions are tailored to your pace 
-                            and business context. Your trainer understands your business challenges and shows you 
-                            exactly how technology can solve them.
-                        </p>
-                        <p class="mt-8">
-                            <strong class="font-medium text-green-600">
-                                Emergency Help When Things Break:
-                            </strong>
-                            When disaster strikes, you need immediate expert intervention, not an appointment next 
-                            week. Our emergency support provides rapid response when critical systems fail, 
-                            ensuring your business disruption is minimised and your stress levels remain 
-                            manageable. Whether it's a website down during a product launch, email systems failing 
-                            before an important client presentation, or essential software refusing to cooperate 
-                            during crunch time, you have direct access to expert troubleshooting that gets you 
-                            back online fast. This isn't just technical support, it's business continuity 
-                            insurance that protects your reputation, revenue, and peace of mind.
+                <div class="mt-10 flex items-center justify-center gap-x-6">
+                    <a href="https://app.simplymeet.me/dream-digital/discovery-call" class="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-green-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-700" target="_blank">
+                        Get support
+                    </a>
+                    <a href="https://app.simplymeet.me/dream-digital/discovery-call" class="rounded-md px-3.5 py-2.5 text-sm font-semibold text-gray-800 outline-gray-800 shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2  hover:bg-emerald-100 focus-visible:outline-indigo-600">
+                        Download the Checklist
+                    </a>  
+                </div>
+                
+                <!-- REASURANCE -->
+                <div class="mt-12">
+                    <h2>
+                        You’re not bad with tech
+                    </h2>
+                    <h3 class="mt-8">
+                        You’ve just been left to figure it out alone
+                    </h3>
+                    <p class="mt-3">
+                        Most small business owners end up:
+                    </p>
+                    <ul role="list" class="mt-8 space-y-8">
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                                <path d="M16.5 7.5h-9v9h9v-9Z" />
+                                <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                            </svg>
+
+                            <span>
+                                Using too many tools
+                            </span>
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                                <path d="M16.5 7.5h-9v9h9v-9Z" />
+                                <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                            </svg>
+
+                            <span>
+                                Fixing things as they break
+                            </span>
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                                <path d="M16.5 7.5h-9v9h9v-9Z" />
+                                <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                            </svg>
+
+                            <span> 
+                                Putting off anything technical
+                            </span>
+                        </li>
+                    </ul>
+                    <p class="mt-6">
+                        That’s where this support plan comes in.
+                    </p>
+                </div>
+                <!-- CLARITY -->
+                <div class="mt-12">
+                    <h2>
+                        What the Tech Support Plan Actually is
+                    </h2>
+                    <p class="mt-8">
+                        Think of it as having someone you can go to whenever something isn’t working, needs setting 
+                        up, or just doesn’t make sense.
+                    </p>
+                    <p class="mt-8">
+                        <strong> No tickets. No jargon. Just clear, practical help. </strong>
+                    </p>
+                </div>
+                    
+                <!-- WHAT YOU GET -->
+                <div class=mt-12>
+                    <h2>
+                        What you get
+                    </h2>
+                    <ul role="list" class="mt-8 space-y-3">
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                            Help when something stops working
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                            	Support setting up new tools properly
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                            Small fixes and improvements as you go
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                            Guidance when you’re not sure what to do
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                            One person who understands your setup
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- PRICING -->
+                 <div class="mt-12">
+                    <h2>
+                        Simple Monthly Support
+                    </h2>
+                    <div class="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-2">
+                        <div class="group/tier rounded-3xl p-8 ring-1 bg-emerald-50 ring-gray-300 data-featured:ring-2 data-featured:ring-indigo-600">
+                            <div class="flex items-center justify-between gap-x-4">
+                                <h3>
+                                    Option 1:
+                                    <span class="text-gray-800"> 
+                                        Light Support
+                                    </span>
+                                </h3>
+                            </div>
+                            <p class="mt-4">
+                                <strong>
+                                    £60/month
+                                </strong>
+                            </p>
+                            <p class="mt-4">
+                                For occasional fixes and small updates  
+                            </p>
+                        </div>
+                        <div class="group/tier rounded-3xl p-8 ring-1 bg-emerald-50 ring-gray-300 data-featured:ring-2 data-featured:ring-indigo-600">
+                            <div class="flex items-center justify-between gap-x-4">
+                                <h3 class="text-center">
+                                    Option 2:
+                                    <span class="text-gray-800"> 
+                                        Ongoing Support
+                                    </span>
+                                </h3>
+                            </div>
+                            <p class="mt-4">
+                                <strong>
+                                    £120/month
+                                </strong>
+                            </p>
+                            <p class="mt-4">
+                                For regular help, improvements, and peace of mind  
+                            </p>
+                        </div>
+                        <p class="text-sm/6">
+                            You can upgrade, downgrade, or cancel anytime.
                         </p>
                     </div>
-                    <div>
-                        <h2 class="text-3xl">
-                           Why Choose Tech Peace of Mind Plan?
-                        </h2>
-                        <p class="mt-8">
-                            <strong class="font-medium text-green-600">
-                               Immediate Access:
-                            </strong>
-                            No more frantically searching for reliable tech help when problems arise. Your support 
-                            team already understands your business and systems.
-                        </p>
-                        <p class="mt-8">
-                            <strong class="font-medium text-green-600">
-                                Cost Predictability:
-                            </strong>
-                            Budget-friendly monthly investment that's far less expensive than emergency callout fees 
-                            or the revenue lost during extended downtime.
-                        </p>
-                        <p class="mt-8">
-                            <strong class="font-medium text-green-600">
-                                Learning Investment:
-                            </strong>
-                            Each support interaction makes you more capable and confident with technology, building 
-                            long-term value for your business.
-                        </p>
-                        <p class="mt-8">
-                            <strong class="font-medium text-green-600">
-                                Business Protection:
-                            </strong>
-                            Rapid emergency response protects your professional reputation and prevents small issues 
-                            from becoming major crises.
-                        </p>
-                        <p class="mt-8">
-                            <strong class="font-medium text-green-600">
-                                Stress Elimination:
-                            </strong>
-                            Stop losing sleep over technology concerns. Know that expert help is always available 
-                            when you need it.
-                        </p>
-                         <p class="mt-8">
-                            <strong class="font-medium text-green-600">
-                                Competitive Advantage:
-                            </strong>
-                            While competitors struggle with tech issues alone, you maintain professional operations 
-                            with expert backing.
-                        </p>
-                        <h2 class="text-3xl mt-8">
-                            Perfect For:
-                        </h2>
-                        <ul role="list" class="mt-8 space-y-3">
-                            <li class="flex gap-x-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                </svg>
-                                Business owners who feel overwhelmed by technology but recognise its importance
-                            </li>
-                            <li class="flex gap-x-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                </svg>
-                                Companies that rely heavily on digital tools but lack in-house technical expertise
-                            </li>
-                            <li class="flex gap-x-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                </svg>
-                                Entrepreneurs who want to focus on their core business rather than troubleshooting tech problems
-                            </li>
-                            <li class="flex gap-x-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                </svg>
-                                Growing businesses that need reliable technology support but can't justify a full-time IT person
-                            </li>
-                            <li class="flex gap-x-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                </svg>
-                                Teams that have experienced costly downtime and want protection against future disruptions
-                            </li>
-                        </ul>
-                    </div>
+                </div>
+                <!-- HOW IT WORKS -->
+                <div class="mt-12">
+                    <h2 class="tracking-tight text-pretty">
+                        How it Works
+                    </h2>
+                    <h3 class="mt-8 tracking-tight text-balance text-green-600 text-left">
+                        Step 1: 
+                        <span class="text-gray-800"> 
+                            You reach out
+                        </span>
+                    </h3>
+                    <p class="mt-3 text-left">
+                        Message when something isn’t working or needs setting up
+                    </p>
+                    <h3 class="mt-8 tracking-tight text-balance text-green-600 text-left">
+                        Step 2: 
+                        <span class="text-gray-800"> 
+                            I sort it
+                        </span>
+                    </h3>
+                    <p class="mt-3 text-left">
+                        I fix, improve, or guide you through it
+                    </p>
+                    <h3 class="mt-8 tracking-tight text-balance text-green-600 text-left">
+                        Step 3: 
+                        <span class="text-gray-800"> 
+                            It stays sorted
+                        </span>
+                    </h3>
+                    <p class="mt-3 text-left">
+                        We keep things running smoothly over time
+                    </p>
+                </div>
+                <!-- WHO'S IT FOR? -->
+                <div class="mt-12">
+                    <h2>
+                        Who this is for
+                    </h2>
+                    <p class="mt-3">
+                        This is for you if:
+                    </p>
+                    <ul role="list" class="mt-8 space-y-8">
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                                <path d="M16.5 7.5h-9v9h9v-9Z" />
+                                <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                            </svg>
+
+                            <span>
+                                You avoid backend tech tasks
+                            </span>
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                                <path d="M16.5 7.5h-9v9h9v-9Z" />
+                                <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                            </svg>
+
+                            <span>
+                                Things keep breaking or not working properly
+                            </span>
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                                <path d="M16.5 7.5h-9v9h9v-9Z" />
+                                <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                            </svg>
+
+                            <span> 
+                                You’ve got too many tools and no clear system
+                            </span>
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                                <path d="M16.5 7.5h-9v9h9v-9Z" />
+                                <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                            </svg>
+
+                            <span> 
+                                You just want someone to handle it
+                            </span>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <h1 class="mt-8 tracking-tight text-pretty">
-                The Confidence You Will Gain
-            </h1>
-            <div class="mt-10 grid max-w-xl grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-2">
-                    <div class="bg-orange-50">
-                        <h2 class="p-4 text-3xl">
-                            Before:
-                        </h2>
-                        <p class="p-4">
-                            Anxiety every time you try new software, panic when systems don't work as expected, 
-                            hours wasted on problems you can't solve, fear of technology limiting business 
-                            opportunities, and the constant worry about what happens when things go wrong.
-                        </p>
-                    </div>
-                    <div class="bg-emerald-200">
-                        <h2 class="p-4 text-3xl text-green-600">
-                            After:
-                        </h2>
-                        <p class="p-4">
-                            Confidence to explore new technologies that could benefit your business, immediate 
-                            access to expert help when needed, rapid resolution of technical issues with minimal 
-                            business disruption, and the peace of mind that comes from knowing you're never facing 
-                            tech challenges alone.
-                        </p>
-                    </div>
-                </div>
-                <h1 class="mt-8 tracking-tight text-pretty">
-                    Your Technology Safety Net
-                </h1>
-                <p class="mt-6">
-                  Running a business without reliable tech support is like performing without a safety net. The 
-                  Tech Peace of Mind Plan ensures that when technology challenges arise, and they will, you have 
-                  expert support ready to catch you and get you back on track quickly.
-                </p>
-                <h1 class="mt-8 tracking-tight text-pretty">
-                    Ready to Eliminate Tech Anxiety?
-                </h1>
-                <p class="mt-6">
-                    Stop letting technology fears limit your business potential. The Tech Peace of Mind Plan 
-                    transforms you from someone who worries about technology into someone who confidently leverages 
-                    it for business growth. Your competitors will wonder how you always seem to have everything 
-                    running smoothly, while you'll know the secret is having the right support when it matters most.
-                </p>
-                <p class="mt-6">
-                    <i>
-                        Invest in peace of mind. Join the Tech Peace of Mind Plan and experience the confidence 
-                        that comes from knowing expert help is always just a call away.
-                    </i>
-                </p>
-                <p class="mt-6 center">
-                    <a href="https://app.simplymeet.me/dream-digital/tech-support" class="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-emerald-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600" target="_blank">
-                        Secure My Tech Safety Net
-                    </a>
-                </p>
         </div>
-        <!--<div class="relative overflow-hidden pt-16 lg:pt-20">
-            <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                <img class="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10" src="https://tailwindcss.com/plus-assets/img/component-images/project-app-screenshot.png" alt="" />
-                 <div class="relative" aria-hidden="true">
-                    <div class="absolute -inset-x-20 bottom-0 bg-linear-to-t from-white pt-[7%]" />
+        <!-- CTA Section -->
+        <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-10 lg:px-8 sm:rounded-3xl bg-emerald-50">
+            <div class="mx-auto max-w-2xl lg:mx-0">
+                <h2 class="text-pretty tracking-tight">
+                    Stop figuring it all out yourself
+                </h2>
+                <p class="mt-3 text-lg/8">
+                    Get support when you need it, without the stress.
+                </p>
+                <div class="mt-10 flex items-center justify-center gap-x-6">
+                    <a href="https://app.simplymeet.me/dream-digital/discovery-call" class="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-green-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-700" target="_blank">
+                        Get support
+                    </a>
+                    <a href="https://app.simplymeet.me/dream-digital/discovery-call" class="rounded-md px-3.5 py-2.5 text-sm font-semibold text-gray-800 outline-gray-800 shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2  hover:bg-emerald-100 focus-visible:outline-indigo-600">
+                        Book a free clarity call
+                    </a>
                 </div>
-            </div>-->
-            
-       <!-- </div> -->
+                <p class="mt-6 text-sm/6">
+                    No pressure. No jargon. Just clear help.
+                </p>
+            </div>
+        </div>
     </div>
     <!--Newsletter -->
   <newsletter-form />
@@ -220,9 +287,9 @@
 
 <script setup>
     useHead({
-        title: 'Ongoing Tech Support for Small Businesses | Dream Digital',
+        title: 'Small Business Tech Support Plan | Dream Digital',
         meta: [
-            { name: 'description', content: 'Ongoing, jargon-free tech support for small businesses. Fix issues fast, keep systems running smoothly, and get help when you need it.' },
+            { name: 'description', content: 'Ongoing tech support for small businesses. Fix issues, simplify your setup, and get reliable help when you need it.' },
             { name: 'keywords', content: 'ongoing tech support for small businesses, freelance IT support plan, small business tech help UK' },
             { name: 'author', content: 'Kerry Kidd' },
             { property: 'og:description', content: 'Ongoing, jargon-free tech support for small businesses. Fix issues fast, keep systems running smoothly, and get help when you need it.' },
@@ -232,7 +299,7 @@
         ]
     });
     useSeoMeta({
-      title: 'Ongoing Tech Support for Small Businesses | Dream Digital',
-      ogTitle: 'Friendly Ongoing Tech Support for Small Businesses'
+      title: 'Small Business Tech Support Plan | Dream Digital',
+      ogTitle: 'Small Business Tech Support Plan | Dream Digital'
     });
 </script>
