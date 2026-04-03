@@ -301,9 +301,9 @@
 
 <script setup>
     useHead({
-        title: 'Smart Systems & Automations for Small Businesses',
+        title: 'Business Systems Clean-Up for Small Businesses | Dream Digital',
         meta: [
-            { name: 'description', content: 'Smart digital systems that save time and reduce stress. Automations, integrations, and AI tools built around how your business actually works.' },
+            { name: 'description', content: 'Simplify your business systems. Reduce tools, organise your setup, and save time with a clear, easy-to-manage workflow.' },
             { name: 'keywords', content: 'business automations, smart digital systems, workflow automation for small businesses' },
             { name: 'author', content: 'Kerry Kidd' },
             { property: 'og:description', content: 'Smart digital systems that save time and reduce stress. Automations, integrations, and AI tools built around how your business actually works.' },
@@ -313,7 +313,7 @@
         ]
     });
     useSeoMeta({
-      title: 'Smart Systems & Automations for Small Businesses',
-      ogTitle: 'Smarter Systems, Less Manual Work'
+      title: 'Business Systems Clean-Up for Small Businesses | Dream Digital',
+      ogTitle: 'Business Systems Clean-Up for Small Businesses | Dream Digital'
     });
 </script>
