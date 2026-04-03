@@ -20,7 +20,7 @@
                         Get support
                     </a>
                     <a href="https://app.simplymeet.me/dream-digital/discovery-call" class="rounded-md px-3.5 py-2.5 text-sm font-semibold text-gray-800 outline-gray-800 shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2  hover:bg-emerald-100 focus-visible:outline-indigo-600">
-                        Download the Checklist
+                        Book a Free Clarity Call
                     </a>  
                 </div>
                 

@@ -4,199 +4,295 @@
     <div class="py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+                <!-- HERO SECTION -->
                 <p class="text-base/7 font-bold text-green-600">
                     Smart Systems Setup
                 </p>
                 <h1 class="mt-2 tracking-tight text-pretty">
-                    Transform Your Business Operations with Intelligent Automation
+                    Fix your messy business setup
                 </h1>
                 <p class="mt-6">
-                    Running a growing business shouldn't mean drowning in administrative tasks or losing track of 
-                    valuable customers. Our Smart Systems Setup package revolutionises how your business operates, 
-                    implementing cutting-edge tools that work tirelessly behind the scenes to streamline operations, 
-                    nurture relationships, and multiply your productivity.
+                    Too many tools, things all over the place, and no clear system? <br>
+                    I’ll help you simplify everything so it’s easier to manage day to day.
                 </p>
-                <div class="mt-10 grid max-w-xl grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-2">
-                    <div>
-                        <h2 class="text-3xl">
-                            What is Included
-                        </h2>
-                        <p class="mt-8">
-                            <strong class="font-medium text-green-600">
-                                Customer Relationship Managment (CRM) Setup & Configuration:
-                            </strong> 
-                            Your customers are the lifeblood of your business, yet many companies lose potential 
-                            revenue through poor customer relationship management. We implement and configure a 
-                            powerful CRM system tailored to your specific business model, ensuring every lead, 
-                            customer interaction, and sales opportunity is captured and tracked. No more losing 
-                            prospects in spreadsheets or forgetting to follow up on warm leads. Your CRM becomes 
-                            your business intelligence hub, providing insights into customer behaviour, sales 
-                            patterns, and growth opportunities whilst keeping your entire team aligned and 
-                            informed.
-                        </p>
-                        <p class="mt-8">
-                            <strong class="font-medium text-green-600">
-                                Automation Workflows:
+                <div class="mt-10 flex items-center justify-center gap-x-6">
+                    <a href="https://app.simplymeet.me/dream-digital/discovery-call" class="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-green-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-700" target="_blank">
+                        Fix my Setup
+                    </a>
+                    <a href="https://app.simplymeet.me/dream-digital/discovery-call" class="rounded-md px-3.5 py-2.5 text-sm font-semibold text-gray-800 outline-gray-800 shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2  hover:bg-emerald-100 focus-visible:outline-indigo-600">
+                        Book a Free Clarity Call
+                    </a>  
+                </div>
+                <!-- PROBLEM -->
+                <div class="mt-12">
+                    <h2>
+                        It builds up over time
+                    </h2>
+                    <h3 class="mt-4">
+                        A tool here, a workaround there
+                    </h3>
+                    <p class="mt-8">
+                        Most setups don’t start messy, they become messy.
+                    </p>
+                    <ul role="list" class="mt-8 space-y-8">
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                                <path d="M16.5 7.5h-9v9h9v-9Z" />
+                                <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                            </svg>
+
+                            <span>
+                                You’ve added tools as you’ve grown
+                            </span>
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                                <path d="M16.5 7.5h-9v9h9v-9Z" />
+                                <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                            </svg>
+
+                            <span>
+                                Things don’t connect properly
+                            </span>
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                                <path d="M16.5 7.5h-9v9h9v-9Z" />
+                                <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                            </svg>
+
+                            <span> 
+                                You’re duplicating work without realising
+                            </span>
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                                <path d="M16.5 7.5h-9v9h9v-9Z" />
+                                <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                            </svg>
+
+                            <span> 
+                                You’re not sure what’s actually needed anymore
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- WHAT THIS SERVICE DOES -->
+                <div class="mt-12">
+                    <h2>
+                        What we do
+                    </h2>
+                    <p class="mt-8">
+                        We take what you already have and turn it into a simple, organised system that actually 
+                        works.
+                    </p>
+                    <ul role="list" class="mt-8 space-y-3">
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                            Fewer tools
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                            	Clear structure
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                            Everything in the right place
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                            	Less time spent on admin
+                        </li>
+                    </ul>
+                </div>
+                <!-- WHAT YOU GET -->
+                <div class="mt-12">
+                    <h2>
+                        What you get
+                    </h2>
+                    <ul role="list" class="mt-8 space-y-8">
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                                <path d="M16.5 7.5h-9v9h9v-9Z" />
+                                <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                            </svg>
+
+                            <span>
+                                A clear overview of your current setup
+                            </span>
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                                <path d="M16.5 7.5h-9v9h9v-9Z" />
+                                <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                            </svg>
+
+                            <span>
+                                Recommendations on what to keep, remove, or replace
+                            </span>
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                                <path d="M16.5 7.5h-9v9h9v-9Z" />
+                                <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                            </svg>
+
+                            <span> 
+                                A simplified system that’s easier to manage
+                            </span>
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                                <path d="M16.5 7.5h-9v9h9v-9Z" />
+                                <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                            </svg>
+
+                            <span> 
+                                Help setting everything up properly
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- PRICING -->
+                 <div class="mt-12">
+                    <h2>
+                        Simple, one-off clean-up 
+                    </h2>
+                    <div class="mt-4 group/tier rounded-3xl p-8 ring-1 bg-emerald-50 ring-gray-300 data-featured:ring-2 data-featured:ring-indigo-600">
+                        <p class="mt-4">
+                            <strong>
+                                From £150
                             </strong>
-                            Imagine having a tireless digital assistant handling your repetitive tasks 24/7. We 
-                            design and implement intelligent automation workflows that handle everything from lead 
-                            qualification and appointment scheduling to customer onboarding and follow-up sequences. 
-                            These systems work seamlessly in the background, ensuring consistent communication, 
-                            reducing human error, and freeing your team to focus on high-value activities that 
-                            actually grow your business. Whether it's automatically sending quotes, scheduling 
-                            social media posts, or triggering personalised email campaigns, your workflows 
-                            maintain professional standards even during your busiest periods.
                         </p>
-                        <p class="mt-8">
-                            <strong class="font-medium text-green-600">
-                                AI Productivity Tools Integration:
-                            </strong>
-                            Artificial intelligence isn't just for tech giants anymore. We integrate practical AI 
-                            tools that supercharge your daily operations, from intelligent document processing and 
-                            automated data entry to AI-powered customer service chatbots and content creation 
-                            assistants. These tools don't replace your expertise, they amplify it, handling 
-                            routine cognitive tasks so you can focus on strategy, creativity, and building 
-                            relationships. Your business gains the competitive advantage of enterprise-level AI 
-                            capabilities without the enterprise-level complexity or cost.
+                        <p class="mt-4">
+                            Most clean-ups take 2–4 hours depending on how complex your setup is. 
                         </p>
+                        <p class="mt-4">
+                            We’ll always keep things as simple and cost-effective as possible.
+                        </p>
+                        <div class="mt-10 flex items-center justify-center gap-x-6">
+                            <a href="https://app.simplymeet.me/dream-digital/discovery-call" class="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-green-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-700" target="_blank">
+                                Fix my Setup
+                            </a> 
+                        </div>
                     </div>
-                    <div>
-                        <h2 class="text-3xl">
-                            Why Choose Smart Systems Setup?
-                        </h2>
-                        <p class="mt-8">
-                            <strong class="font-medium text-green-600">
-                                Immediate Impact:
-                            </strong>
-                            Most clients see measurable improvements in efficiency within the first week of 
-                            implementation. Tasks that once took hours are completed in minutes.
-                        </p>
-                        <p class="mt-8">
-                            <strong class="font-medium text-green-600">
-                                Scalable Infrastructure:
-                            </strong>
-                            These systems grow with your business. What works for 100 customers will seamlessly 
-                            handle 1,000 customers with the same level of personalisation and attention.
-                        </p>
-                        <p class="mt-8">
-                            <strong class="font-medium text-green-600">
-                                Cost-Effective:
-                            </strong>
-                            Skip the expensive learning curve and technical frustrations. Our package costs less 
-                            than most businesses spend on trial and error.
-                        </p>
-                        <p class="mt-8">
-                            <strong class="font-medium text-green-600">
-                                Competitive Advantage:
-                            </strong>
-                            While your competitors are still managing everything manually, you'll be operating 
-                            with the efficiency of much larger organisations.
-                        </p>
-                        <p class="mt-8">
-                            <strong class="font-medium text-green-600">
-                                Data-Driven Insights:
-                            </strong>
-                            Every system we implement provides valuable analytics, helping you make informed 
-                            decisions based on real customer behaviour and business performance data.
-                        </p>
-                         <p class="mt-8">
-                            <strong class="font-medium text-green-600">
-                                Cost Savings:
-                            </strong>
-                            The time and resources saved through automation typically pay for the entire setup 
-                            within 2-3 months, with ongoing savings continuing indefinitely.
-                        </p>
-                        <h2 class="mt-8 text-3xl">
-                            Perfect For:
-                        </h2>
-                        <ul role="list" class="mt-8 space-y-3">
-                            <li class="flex gap-x-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                </svg>
-                                Growing businesses drowning in administrative tasks
-                            </li>
-                            <li class="flex gap-x-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                </svg>
-                                Companies struggling to maintain consistent customer communication
-                            </li>
-                            <li class="flex gap-x-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                </svg>
-                                Businesses losing revenue through poor lead management
-                            </li>
-                            <li class="flex gap-x-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                </svg>
-                                Teams spending too much time on repetitive manual processes
-                            </li>
-                            <li class="flex gap-x-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                </svg>
-                                Entrepreneurs ready to scale operations intelligently
-                            </li>
-                        </ul>
-                    </div>
+                </div>
+                <!-- HOW IT WORKS -->
+                <div class="mt-12">
+                    <h2 class="tracking-tight text-pretty">
+                        How it Works
+                    </h2>
+                    <h3 class="mt-8 tracking-tight text-balance text-green-600 text-left">
+                        Step 1: 
+                        <span class="text-gray-800"> 
+                            We review your setup
+                        </span>
+                    </h3>
+                    <p class="mt-3 text-left">
+                        We look at what you’re currently using and how it’s working.
+                    </p>
+                    <h3 class="mt-8 tracking-tight text-balance text-green-600 text-left">
+                        Step 2: 
+                        <span class="text-gray-800"> 
+                            We simplify it
+                        </span>
+                    </h3>
+                    <p class="mt-3 text-left">
+                        We remove what you don’t need and organise what stays.
+                    </p>
+                    <h3 class="mt-8 tracking-tight text-balance text-green-600 text-left">
+                        Step 3: 
+                        <span class="text-gray-800"> 
+                            We put a better system in place
+                        </span>
+                    </h3>
+                    <p class="mt-3 text-left">
+                        Everything is set up so it’s clear, connected, and easy to use.
+                    </p>
+                </div>
+                <!-- WHO'S IT FOR? -->
+                <div class="mt-12">
+                    <h2>
+                        Who this is for
+                    </h2>
+                    <p class="mt-3">
+                        This is for you if:
+                    </p>
+                    <ul role="list" class="mt-8 space-y-8">
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                                <path d="M16.5 7.5h-9v9h9v-9Z" />
+                                <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                            </svg>
+
+                            <span>
+                                Your setup feels messy or confusing
+                            </span>
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                                <path d="M16.5 7.5h-9v9h9v-9Z" />
+                                <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                            </svg>
+
+                            <span>
+                                You don’t trust your current system
+                            </span>
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                                <path d="M16.5 7.5h-9v9h9v-9Z" />
+                                <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                            </svg>
+
+                            <span> 
+                                You’ve got too many tools
+                            </span>
+                        </li>
+                        <li class="flex gap-x-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 text-green-600">
+                                <path d="M16.5 7.5h-9v9h9v-9Z" />
+                                <path fill-rule="evenodd" d="M8.25 2.25A.75.75 0 0 1 9 3v.75h2.25V3a.75.75 0 0 1 1.5 0v.75H15V3a.75.75 0 0 1 1.5 0v.75h.75a3 3 0 0 1 3 3v.75H21A.75.75 0 0 1 21 9h-.75v2.25H21a.75.75 0 0 1 0 1.5h-.75V15H21a.75.75 0 0 1 0 1.5h-.75v.75a3 3 0 0 1-3 3h-.75V21a.75.75 0 0 1-1.5 0v-.75h-2.25V21a.75.75 0 0 1-1.5 0v-.75H9V21a.75.75 0 0 1-1.5 0v-.75h-.75a3 3 0 0 1-3-3v-.75H3A.75.75 0 0 1 3 15h.75v-2.25H3a.75.75 0 0 1 0-1.5h.75V9H3a.75.75 0 0 1 0-1.5h.75v-.75a3 3 0 0 1 3-3h.75V3a.75.75 0 0 1 .75-.75ZM6 6.75A.75.75 0 0 1 6.75 6h10.5a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75H6.75a.75.75 0 0 1-.75-.75V6.75Z" clip-rule="evenodd" />
+                            </svg>
+
+                            <span> 
+                                You’re wasting time on admin
+                            </span>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <h1 class="mt-8 tracking-tight text-pretty">
-                The Transformation You Will Experience:
-            </h1>
-            <div class="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base/7 lg:max-w-none lg:grid-cols-2">
-                    <div class="bg-orange-50">
-                        <h2 class="p-4 text-3xl">
-                            Before:
-                        </h2>
-                        <p class="p-4">
-                            Juggling multiple spreadsheets, missing follow-ups, spending hours on admin work, 
-                            inconsistent customer experience, difficulty tracking business performance.
-                        </p>
-                    </div>
-                    <div class="bg-emerald-200">
-                        <h2 class="p-4 text-3xl text-green-600">
-                            After:
-                        </h2>
-                        <p class="p-4">
-                            Streamlined operations running automatically, every customer interaction tracked and 
-                            optimised, data-driven decision making, professional consistency at scale, and freedom 
-                            to focus on growth and innovation.
-                        </p>
+            <!-- CTA Section -->
+            <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-10 lg:px-8 sm:rounded-3xl bg-emerald-50">
+                <div class="mx-auto max-w-2xl lg:mx-0">
+                    <h2 class="text-pretty tracking-tight">
+                        Get your setup back under control
+                    </h2>
+                    <p class="mt-3 text-lg/8">
+                        Not sure where to start? Let’s take a look and simplify it.
+                    </p>
+                    <div class="mt-10 flex items-center justify-center gap-x-6">
+                        <a href="https://app.simplymeet.me/dream-digital/discovery-call" class="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-green-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-700" target="_blank">
+                            Fix my Setup
+                        </a>
+                        <a href="https://app.simplymeet.me/dream-digital/discovery-call" class="rounded-md px-3.5 py-2.5 text-sm font-semibold text-gray-800 outline-gray-800 shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2  hover:bg-emerald-100 focus-visible:outline-indigo-600">
+                            Book a free clarity call
+                        </a>
                     </div>
                 </div>
-                <h1 class="mt-10 tracking-tight text-pretty">
-                Ready to Revolutionise Your Operations?
-            </h1>
-            <p class="mt-6">
-                Stop letting inefficient systems hold your business back. Smart Systems Setup doesn't just give you 
-                tools, it gives you superpowers. Your competitors will wonder how you manage to be everywhere at 
-                once, respond so quickly, and maintain such consistent quality as you scale.
-            </p>
-            <p class="mt-6">
-                <i>
-                    Transform your business from reactive to proactive. Upgrade to Smart Systems Setup and 
-                    experience the future of business operations today!
-                </i>
-            </p>
-            <p class="mt-6 center">
-                <a href="https://app.simplymeet.me/dream-digital/smart-systems" class="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-emerald-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600" target="_blank">
-                    Build My Automated Empire
-                </a>
-            </p>
+                <p class="mt-6 text-sm/6">
+                    No pressure. Just clear next steps.
+                </p>
+            </div>
         </div>
-        <!--<div class="relative overflow-hidden pt-16 lg:pt-20">
-            <div class="mx-auto max-w-7xl px-6 lg:px-8">
-                <img class="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10" src="https://tailwindcss.com/plus-assets/img/component-images/project-app-screenshot.png" alt="" />
-                 <div class="relative" aria-hidden="true">
-                    <div class="absolute -inset-x-20 bottom-0 bg-linear-to-t from-white pt-[7%]" />
-                </div>
-            </div>-->
-            
-       <!-- </div> -->
     </div>
     <!--Newsletter -->
   <newsletter-form />
