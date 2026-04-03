@@ -312,9 +312,9 @@
 
 <script setup>
     useHead({
-        title: 'Digital Kickstart for Small Businesses | Dream Digital',
+        title: 'Simple Website Setup for Small Businesses | Dream Digital',
         meta: [
-            { name: 'description', content: 'A simple digital kickstart for small businesses. Get email, domains, and core systems set up properly from day one. Start strong with Dream Digital.' },
+            { name: 'description', content: 'Simple website setup for small businesses. Get a clean, professional site that clearly explains what you do and brings in enquiries.' },
             { name: 'keywords', content: 'digital setup for small businesses, business tech starter package, email and domain setup UK' },
             { name: 'author', content: 'Kerry Kidd' },
             { property: 'og:description', content: 'LA simple digital kickstart for small businesses. Get email, domains, and core systems set up properly from day one. Start strong with Dream Digital.' },
@@ -324,7 +324,7 @@
         ]
     });
     useSeoMeta({
-      title: 'Digital Kickstart for Small Businesses | Dream Digital',
-      ogTitle: 'Get Your Business Tech Set Up Properly'
+      title: 'Simple Website Setup for Small Businesses | Dream Digital',
+      ogTitle: 'Simple Website Setup for Small Businesses | Dream Digital'
     });
 </script>
