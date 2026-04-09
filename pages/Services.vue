@@ -255,7 +255,7 @@ const pricing = {
     {
       name: 'Tech Support Plan',
       id: 'tech-support-plan',
-      price: '£120/month',
+      price: '£60-£120/month',
       description: 'Ongoing support so you don’t have to figure everything out yourself or wait until something breaks.',
       features: [
         'Help when things stop working',
