@@ -1,65 +1,65 @@
 <template>
   <Header />
-  <div class="bg-zinc-100 px-6 py-24 sm:py-32 lg:px-8">
+  <div class="px-6 py-24 sm:py-32 lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
-      <h1 class="text-4xl font-semibold tracking-tight text-sky-700 sm:text-6xl">
+      <h1 class="tracking-tight">
         Feeling Overwhelmed by Tech?
       </h1>
-      <h2 class="text-4xl font-semibold tracking-tight text-violet-700 sm:text-6xl">
+      <h2 class="mt-10 tracking-tight text-gray-800">
        Lets Fix That!
       </h2>
-      <p class="mt-8 text-lg font-medium text-pretty text-gray-700 sm:text-xl/8">
-        Grab your free checklist made for small business owners who want to get digitally organised and clear the clutter. Without the stress, faff or jargon.
+      <p class="mt-8 text-pretty sm:text-xl/8">
+        Grab your free checklist made for small business owners who want to get digitally organised and clear 
+        the clutter. Without the stress, faff or jargon.
       </p>
     </div>
-    <div class="overflow-hidden bg-zinc-100 py-24 sm:py-32">
+    <div class="overflow-hidden py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
         <div class="lg:pt-4 lg:pr-8">
           <div class="lg:max-w-lg">
-            <h2 class="text-4xl font-semibold tracking-tight text-pretty text-sky-700 sm:text-5xl">
+            <h2 class="tracking-tight text-pretty">
               What's inside the checklist?
             </h2>
-            <ul role="list" class="mt-8 space-y-8 text-gray-700 text-xl">
+            <ul role="list" class="mt-8 space-y-8">
             <li class="flex gap-x-3">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#a21caf" class="size-8">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                  </svg>
-
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>
               <span>
                 A tidy professional email set-up
               </span>
             </li>
             <li class="flex gap-x-3">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#a21caf" class="size-8">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                  </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>
               <span>
                 Simple password storage that saves your sanity
               </span>
             </li>
             <li class="flex gap-x-3">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#a21caf" class="size-8">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                  </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>
 
               <span>
                 Booking systems that stop the back and forth
               </span>
             </li>
             <li class="flex gap-x-3">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#a21caf" class="size-8">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                  </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>
 
               <span>
                 A clear digital filing system you can actually find stuff in
               </span>
             </li>
             <li class="flex gap-x-3">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#a21caf" class="size-8">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                  </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4caf50" class="size-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>
 
               <span>
                 Time-saving tips (hello, automations!)
@@ -74,18 +74,18 @@
       </div>
     </div>
   </div>
-  <div class="bg-zinc-100 py-24 sm:py-32">
+  <div class="py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-8 sm:gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
         <div class="col-span-2">
          <!-- <h2 class="text-base/7 font-semibold text-indigo-600">Everything you need</h2> -->
-          <h2 class="text-4xl font-semibold tracking-tight text-pretty text-violet-700 sm:text-5xl">
+          <h2 class="tracking-tight text-pretty">
             Is This You?
           </h2>
         </div>
-        <dl class="col-span-3 grid grid-cols-1 gap-x-8 gap-y-10 text-base/7 text-gray-700 sm:grid-cols-2 lg:gap-y-16">
+        <dl class="col-span-3 grid grid-cols-1 gap-x-8 gap-y-10 text-base/7 sm:grid-cols-2 lg:gap-y-16">
           <div v-for="feature in features" :key="feature.name" class="relative pl-9">
-            <dt class="font-semibold text-gray-900">
+            <dt class="font-medium">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#a21caf" class="absolute top-1 left-0 size-8">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                   </svg>
@@ -95,26 +95,26 @@
           </div>
         </dl>
       </div>
-      <h2 class="text-3xl font-semibold tracking-tight text-sky-700 sm:text-5xl text-center mt-24">
+      <h2 class="tracking-tight text-center mt-12">
        Then this checklist is for you!
       </h2>
     </div>
   </div>
   <cta-form />
-  <div class="bg-zinc-100 px-6 py-24 sm:py-32 lg:px-8">
+  <div class="px-6 py-12 sm:py-16 lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
-      <h1 class="text-4xl font-semibold tracking-tight text-sky-700 sm:text-6xl">
+      <h1 class="tracking-tight">
         Want someone to just sort the tech for you?
       </h1>
     
-      <p class="mt-8 text-lg font-medium text-pretty text-gray-700 sm:text-xl/8">
+      <p class="mt-8 font-medium text-pretty sm:text-xl/8">
         If you are nodding along but already feel too busy to tackle this on your own, we can help.
       </p>
-    <p class="mt-8 text-lg font-medium text-pretty text-gray-700 sm:text-xl/8">
+    <p class="mt-8 font-medium text-pretty sm:text-xl/8">
         That's exactly what my <b> Tech Peace of Mind Plan</b> is for. It's a friendly one-to-one digital tidy-up for your business.
       </p>
       <div class="mt-10 flex items-center justify-center gap-x-6">
-          <a href="https://app.simplymeet.me/dream-digital/dream-digital-30-1751571285886" class="rounded-md bg-violet-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-violet-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-500" target="_blank">
+          <a href="https://app.simplymeet.me/dream-digital/dream-digital-30-1751571285886" class="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-emerald-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-500" target="_blank">
             Book a free clarity call
           </a>
         </div>

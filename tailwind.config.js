@@ -12,6 +12,10 @@ export default {
       colors: {
         
       },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],       // body text
+        heading: ['"DM Sans"', 'sans-serif'] // headings
+      },
     },
   },
   plugins: [

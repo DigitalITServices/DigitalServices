@@ -5,7 +5,7 @@
           <div class="flex justify-center mt-8 space-x-6">
             <a 
               href="https://www.facebook.com/Dr3amDigital/" 
-              class="text-gray-500 hover:text-gray-700"
+              class=" hover:text-gray-600"
               target="_blank"
             >
           <span class="sr-only">Facebook</span>
@@ -23,7 +23,7 @@
   
         <a 
           href="https://www.instagram.com/Dr3amDigital" 
-          class="text-gray-500 hover:text-gray-700"
+          class=" hover:text-gray-600"
           target="_blank"
         >
           <span class="sr-only">Instagram</span>
@@ -41,7 +41,7 @@
 
         <a
           href="https://www.linkedin.com/company/dream-digital-uk/"
-          class="text-gray-500 hover:text-gray-700"
+          class=" hover:text-gray-600"
           target="_blank"
           >
           <span class="sr-only">LinkedIn</span>
@@ -58,7 +58,7 @@
   
         <a
           href="https://github.com/RaspiKidd"
-          class="text-gray-500 hover:text-gray-700"
+          class=" hover:text-gray-600"
           target="_blank"
           >
           <span class="sr-only">GitHub</span>
@@ -78,7 +78,7 @@
   
         <a
           href="mailto:hello@dreamdigital.uk"
-          class="text-gray-500 hover:text-gray-700"
+          class=" hover:text-gray-600"
           >
           <span class="sr-only">Email</span>
           <svg class="w-6 h-6" fill="currentColor">
@@ -91,7 +91,7 @@
       <p class="mt-8 text-base text-center text-gray-700">
         &copy; 2026 Dream Digital. All rights reserved.
         <a href="/Privacy-Policy.pdf" 
-        class="text-gray-900 font-medium hover:text-sky-700"
+        class="font-medium hover:text-green-700"
         target="_blank">
           Privacy Policy
         </a>
