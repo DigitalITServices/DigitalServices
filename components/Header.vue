@@ -32,9 +32,9 @@
                 About
               </NuxtLink>
 
-              <NuxtLink to="/blog" class="text-base font-medium hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-300">
+              <!--<NuxtLink to="/blog" class="text-base font-medium hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-300">
                 Blog
-              </NuxtLink>
+              </NuxtLink>-->
   
               <NuxtLink to="/hire-me" class="text-base font-medium hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-300">
                 Hire Us
