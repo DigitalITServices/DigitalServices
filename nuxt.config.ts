@@ -16,18 +16,19 @@ export default defineNuxtConfig({
     enabled: true 
   },
 
-  modules: [
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/seo',
-    '@netlify/nuxt',
-    '@nuxtjs/sitemap',
-    '@nuxtjs/robots',
-    '@nuxt/image',
-    '@nuxt/content',
-    ['nuxt/gtag', {
-      id: 'G-YD3CG2PXXW'
-    }],
+  modules: ['@nuxtjs/tailwindcss', 
+    '@nuxtjs/seo', 
+    '@netlify/nuxt', 
+    '@nuxtjs/sitemap', 
+    '@nuxtjs/robots', 
+    '@nuxt/image', 
+    '@nuxt/content', 
+    'nuxt-gtag'
   ],
+
+   gtag: {
+    id: 'G-YD3CG2PXXW'
+  },
 
   site: {
     name: 'Dream Digital',
