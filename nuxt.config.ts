@@ -1,12 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  runtimeConfig: {
-    public: {
-      posthogPublicKey: process.env.NUXT_PUBLIC_POSTHOG_KEY || 'phc_ltaJgnJ6mhUSb8txyagX8KX6xEwNOQHI6x1iU12ePDj',
-      posthogHost: process.env.NUXT_PUBLIC_POSTHOG_HOST || 'https://eu.i.posthog.com',
-      posthogDefaults: '2025-05-24',
-    }
-  },
 
   routeRules: {
     '/**': {
@@ -30,7 +23,10 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     '@nuxtjs/robots',
     '@nuxt/image',
-    '@nuxt/content'
+    '@nuxt/content',
+    ['nuxt/gtag', {
+      id: 'G-YD3CG2PXXW'
+    }],
   ],
 
   site: {
