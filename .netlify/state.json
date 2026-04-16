@@ -1,7 +1,7 @@
 {
 	"geolocation": {
 		"data": {
-			"city": "Leven",
+			"city": "Edinburgh",
 			"country": {
 				"code": "GB",
 				"name": "United Kingdom"
@@ -11,10 +11,10 @@
 				"name": "Scotland"
 			},
 			"timezone": "Europe/London",
-			"latitude": 56.1947,
-			"longitude": -3.0115,
-			"postalCode": "KY8"
+			"latitude": 55.9495,
+			"longitude": -3.1983,
+			"postalCode": "EH9"
 		},
-		"timestamp": 1768231257432
+		"timestamp": 1776341874931
 	}
 }
