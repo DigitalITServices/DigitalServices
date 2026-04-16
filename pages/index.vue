@@ -3,6 +3,7 @@
 <template>
     <div class="relative">
       <Header />
+      
       <main class="lg:relative">
         <div class="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-30 lg:text-center">
           <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
