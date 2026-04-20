@@ -117,8 +117,9 @@
       <p class="mt-8 text-pretty">
         Start with a simple checklist and see what’s working and what’s not.
       </p>
-      <cta-form class = "mt-8"/>
+      
     </div>
+    <cta-form class = "mt-8"/>
   </div>
 </div>
 <Footer />
